@@ -1,0 +1,32 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg fill="#27005D" width="800px" height="800px" viewBox="-3.2 -3.2 38.40 38.40" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg">
+<g id="SVGRepo_bgCarrier" stroke-width="0">
+<path transform="translate(-3.2, -3.2), scale(1.2)" d="M16,31.963264010062343C20.37813712103019,31.999031463517685,21.394636397983163,25.899806808585765,24.025089448124874,22.399795278280564C26.481074736674888,19.131925955267214,30.86030579642273,16.765007848706794,30.481381608664524,12.694719147668792C30.06922377169107,8.267444666189117,26.471795590110798,4.391866364444146,22.22577030448933,3.072054752583238C18.44577722274864,1.8971020788605055,15.179514744758158,5.174994997208786,11.578720128579008,6.819117746759721C7.803206475285142,8.543017205154092,2.175870650500273,8.587593124840133,1.2736291961293134,12.638801962566887C0.3719954125862128,16.687282260814182,5.623680184331251,18.97106116428734,8.13766614736252,22.270002021987658C10.7906983249373,25.751404215992757,11.623076152148272,31.927506468514906,16,31.963264010062343" fill="#9400FF" strokewidth="0"/>
+</g>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier">
+<rect height="1" width="12" x="10" y="29"/>
+<rect height="1" width="12" x="10" y="2"/>
+<rect height="1" width="4" x="9" y="5"/>
+<rect height="1" width="4" x="9" y="9"/>
+<rect height="1" width="10" x="13" y="12"/>
+<rect height="1" width="3" x="9" y="12"/>
+<rect height="1" width="10" x="13" y="15"/>
+<rect height="1" width="3" x="9" y="15"/>
+<rect height="1" width="10" x="13" y="18"/>
+<rect height="1" width="3" x="9" y="18"/>
+<rect height="1" width="10" x="13" y="21"/>
+<rect height="1" width="3" x="9" y="21"/>
+<rect height="1" width="10" x="13" y="24"/>
+<rect height="1" width="3" x="9" y="24"/>
+<rect height="1" transform="translate(9.5 41.5) rotate(-90)" width="20" x="15.5" y="15.5"/>
+<path d="M22,2V3h2a1,1,0,0,1,1,1V6h1V4a2,2,0,0,0-2-2Z"/>
+<rect height="1" transform="translate(-9.5 22.5) rotate(-90)" width="20" x="-3.5" y="15.5"/>
+<path d="M10,2V3H8A1,1,0,0,0,7,4V6H6V4A2,2,0,0,1,8,2Z"/>
+<path d="M22,30V29h2a1,1,0,0,0,1-1V26h1v2a2,2,0,0,1-2,2Z"/>
+<path d="M10,30V29H8a1,1,0,0,1-1-1V26H6v2a2,2,0,0,0,2,2Z"/>
+<rect height="5" width="1" x="9" y="5"/>
+<rect height="5" width="1" x="12" y="5"/>
+</g>
+</svg>

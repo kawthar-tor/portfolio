@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 function App() {
   return (
     <Router>
-      <div className='font-montserrat bg-primary'>
-        <div>
+      <div className='h-screen font-montserrat text-navy bg-primary flex md:flex-col'>
+        <div className='self-center'>
           <NavBar/>
         </div>
-        <div>
+        <div className='flex grow justify-center'>
             <Routes>
               <Route path='/home' element={<Home/>}/>
               <Route path='/logo' element={<Home/>}/>

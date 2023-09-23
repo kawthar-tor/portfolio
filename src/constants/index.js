@@ -32,40 +32,48 @@ export const navLinks = [
 export const profile = [
     {
         id : "myPicture",
-        link : "Link to my picture"
+        link : "/src/assets/picture.jpg"
     }
 ];
 
-export const introductionWords = [
+export const introductionItems = [
     {
-        id : "word1",
+        id : "fullName",
         title : "Kaouthar Kabiri"
     },
     {
-        id : "word2",
+        id : "item1",
         title : "Computer science engineering student"
+    },
+    {
+        id : "item2",
+        title : "Full stack developer"
+    },
+    {
+        id : "item3",
+        title : "AI enthusiast"
     }
 ];
 
 export const introductionParagraphs = [
     {
-        icon : "",
+        icon : "/src/assets/gps.svg",
         title : "Based in Morocco"
     },
     {
-        icon : "",
+        icon : "/src/assets/school.svg",
         title : "Studying at the National School Of Applied Sciences"
     },
     {
-        icon : "",
+        icon : "/src/assets/nature.svg",
         title : "Nature lover"
     },
     {
-        icon : "",
+        icon : "/src/assets/phone.svg",
         title : "+212627xxxxx"
     },
     {
-        icon : "",
+        icon : "/src/assets/mail.svg",
         title : "kaw.kabiri@gmail.com"
     }
 ];
@@ -73,18 +81,18 @@ export const introductionParagraphs = [
 export const platformsLinks = [
     {
         name : "LinkedIn",
-        icon : "",
+        icon : "/src/assets/linkedin.svg",
         link : "https://www.linkedin.com/in/kaouthar-k-84a709216/"
     },
     {
-        name : "Github",
-        icon : "",
-        link : "https://github.com/kawthar-tor"
+        name : "Resume",
+        icon : "/src/assets/cv.svg",
+        link : "myResumeLink"
     },
     {
-        name : "Resume",
-        icon : "",
-        link : "myResumeLink"
+        name : "Github",
+        icon : "/src/assets/github.svg",
+        link : "https://github.com/kawthar-tor"
     },
 ];
 
