@@ -32,9 +32,9 @@ function Home() {
         <ul className='animate-fade-up'>
           {
             introductionParagraphs.map((paragraph, index) => (
-              <li className='flex my-3 items-center cursor-pointer' key={index}>
-                <span className='mx-3 hover:animate-wiggle animate-once'><img className='w-icon h-icon' src={paragraph.icon} alt='icons'/></span>
-                <span className='hover:text-purpleNeon transition duration-700 ease-in-out transform hover:-translate-y-1'>{paragraph.title}</span>
+              <li className='flex my-3 items-center cursor-pointer transition duration-700 ease-in-out transform hover:-translate-y-1' key={index}>
+                <span className='mx-3'><img className='w-icon h-icon' src={paragraph.icon} alt='icons'/></span>
+                <span className='hover:text-purpleNeon'>{paragraph.title}</span>
               </li>
             ))
           }

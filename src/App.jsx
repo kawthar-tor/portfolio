@@ -10,6 +10,7 @@ function App() {
         </div>
         <div className='flex grow justify-center'>
             <Routes>
+              <Route exact path='/' element={<Home/>}/>
               <Route path='/home' element={<Home/>}/>
               <Route path='/logo' element={<Home/>}/>
               <Route path='/about' element={<About/>}/>
