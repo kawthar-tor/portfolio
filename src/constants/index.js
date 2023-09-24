@@ -109,17 +109,30 @@ export const overviewElements = [
 export const experiences = [
     {
         title: "Wordpress Developer",
-        company_name: "Webpick",
+        companyName: "Webpick",
         icon: "webpick",
-        iconBg: "",
+        iconBg: "#000",
         date: "July 2022 - September 2022",
         points: [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Donec et tellus vitae sem pretium tincidunt.",
           "Curabitur interdum libero vitae urna ullamcorper porta.",
           "Aliquam nec quam a neque elementum gravida.",
-        ],
-      },
+        ]
+    },
+    {
+        title: "Wordpress Developer",
+        companyName: "Meta",
+        icon: "Meta",
+        iconBg: "#000",
+        date: "July 2022 - September 2022",
+        points: [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Donec et tellus vitae sem pretium tincidunt.",
+          "Curabitur interdum libero vitae urna ullamcorper porta.",
+          "Aliquam nec quam a neque elementum gravida.",
+        ]
+    },
 ];
 
 export const education = [
@@ -127,8 +140,13 @@ export const education = [
         title: "National School Of Applied Sciences",
         description: "Engineering degree",
         icon: "ensa kech",
-        iconBg: "",
+        iconBg: "#fff",
         date: "September 2019 - September 2024",
+        modules: [
+            "Data Analysis",
+            "Oracle",
+            "DBs"
+        ]
       },
 ];
 

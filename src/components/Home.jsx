@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 function Home() {
   return (
-    <div className='flex self-center'>
+    <div className='flex h-screen self-center mx-auto'>
       <div className='p-6'>
         {
           profile.map((picture, index) => (
@@ -13,7 +13,7 @@ function Home() {
         }
       </div>
       <div className='flex flex-col gap-10'>
-        <h1 className='inline-block whitespace-nowrap overflow-hidden font-semibold text-[52px]'>
+        <h1 className='inline-block font-semibold text-[52px]'>
           Hi
           <span className='inline-block animate-wiggle-more animate-infinite animate-ease-linear'>
             👋🏻

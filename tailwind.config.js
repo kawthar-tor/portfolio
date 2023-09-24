@@ -12,8 +12,6 @@ export default {
         purpleNeon : "#9400FF"
       },
       animation : {
-        slideToRight : "transition duration-700 ease-in-out transform hover:translate-x-1",
-        slideTop : "transition duration-700 ease-in-out transform hover:-translate-y-1"
       },
       fontFamily : {
         montserrat : ["Montserrat", "sans-serif"]
