@@ -1,5 +1,7 @@
 import React from 'react'
 import {introductionItems, profile, introductionParagraphs, platformsLinks} from '../constants/index';
+import Typewriter from 'typewriter-effect';
+
 function Home() {
   return (
     <div className='flex self-center'>
@@ -11,15 +13,28 @@ function Home() {
         }
       </div>
       <div className='flex flex-col gap-10'>
-        <h1 className=' font-semibold text-[52px]'>Hi <span className='inline-block animate-wiggle-more animate-infinite animate-ease-linear'>👋🏻</span>, I'am 
-
+        <h1 className='inline-block whitespace-nowrap overflow-hidden font-semibold text-[52px]'>
+          Hi
+          <span className='inline-block animate-wiggle-more animate-infinite animate-ease-linear'>
+            👋🏻
+          </span>
+          , I'am {introductionItems[0].title}
+          <span className='text-[20px] text-purpleNeon'>
+            <Typewriter options={
+              {
+                strings: introductionItems.map((item, index) => (item.id !== "fullName" ? item.title : "")),
+                autoStart: true,
+                loop: true,
+              }
+              }/>
+          </span>
         </h1>
-        <ul>
+        <ul className='animate-fade-up'>
           {
             introductionParagraphs.map((paragraph, index) => (
-              <li className='flex my-3 items-center' key={paragraph.id}>
-                <span className='mx-3'><img className='w-icon h-icon' src={paragraph.icon} alt='icons'/></span>
-                <span className='animate-typing'>{paragraph.title}</span>
+              <li className='flex my-3 items-center cursor-pointer' key={index}>
+                <span className='mx-3 hover:animate-wiggle animate-once'><img className='w-icon h-icon' src={paragraph.icon} alt='icons'/></span>
+                <span className='hover:text-purpleNeon transition duration-700 ease-in-out transform hover:-translate-y-1'>{paragraph.title}</span>
               </li>
             ))
           }
@@ -27,7 +42,7 @@ function Home() {
         <div className='flex self-center'>
         {
           platformsLinks.map((platfom, index) => (
-            <a key={platfom.name} href={platfom.link}>
+            <a className='hover:animate-wiggle animate-once' key={platfom.name} href={platfom.link}>
               <img className='w-icon h-icon' src={platfom.icon} alt={platfom.name}/>
             </a>
           ))
