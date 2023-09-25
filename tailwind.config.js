@@ -9,8 +9,14 @@ export default {
       colors: {
         primary: "#F8F0E5",
         navy : "#27005D",
-        purpleNeon : "#9400FF"
+        purpleNeon : "#9400FF",
+        terminalGreenText : "#05FF0F",
       },
+      backgroundColor : {
+        terminalGray : "#3E3C41",
+        terminalTop : "#D9D9D9"
+      }
+      ,
       animation : {
       },
       fontFamily : {

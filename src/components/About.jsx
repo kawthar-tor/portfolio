@@ -4,24 +4,38 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 function About() {
+  const SpanWrapper = ({item, style}) =>{
+    return (
+      <span className={`mr-3 ${style}`}>
+        {item}
+      </span>
+    )
+  }
   return (
     <div>
       <div>
-        <h2 className='font-medium text-5xl hover:text-purpleNeon animate-fade-down animate-duration-700 animate-ease-in'>
+        <h2 className='my-10 font-medium text-5xl hover:text-purpleNeon animate-fade-down animate-duration-700 animate-ease-in'>
           Overview
         </h2>
         <div className='animate-fade animate-duration-700 animate-delay-700 animate-ease-in'>
         {
           overviewElements.map((element, index) => (
-            <div key={index}>
-              <span>
-                {element.userName}
-              </span>
-              <span>$</span>
+            <div key={index} className='overflow-hidden inline-block w-2/4 mx-auto rounded-lg bg-terminalGray text-terminalGreenText'>
+              <div className='mb-4 bg-terminalTop flex py-2 items-center'>
+                <img className='w-icon h-icon hover:animate-wiggle cursor-pointer' src="/src/assets/redCircle.svg" alt="" />
+                <img className='w-icon h-icon hover:animate-wiggle cursor-pointer' src="/src/assets/yellowCircle.svg" alt="" />
+                <img className='w-icon h-icon hover:animate-wiggle cursor-pointer' src="/src/assets/greenCircle.svg" alt="" />
+                <div className='w-80'></div>
+                <img className='w-icon h-icon hover:animate-wiggle' src="/src/assets/folder.svg" alt="" />
+                <span className='text-navy'>/{element.userName}-bash</span>
+              </div>
               <p>
-                <span>cd</span><span>{element.fileName};</span>
+                <SpanWrapper item={`${element.userName}@portfolio:`} style='text-terminalGreenText mr-0 font-bold'/>
+                <SpanWrapper item={"~$"} style='text-white'/>
+                <SpanWrapper item={"cd"}/>
+                <SpanWrapper item={`${element.fileName};`}/>
               </p>
-              <p>
+              <p className='text-justify'>
                 {element.content}
               </p>
             </div>
@@ -30,7 +44,7 @@ function About() {
         </div>
       </div>
       <div>
-        <h2 className='font-medium text-5xl hover:text-purpleNeon animate-fade-down animate-duration-700 animate-delay-[1200ms] animate-ease-in'>
+        <h2 className='font-medium my-10 text-5xl hover:text-purpleNeon animate-fade-down animate-duration-700 animate-delay-[1200ms] animate-ease-in'>
           Work Experience
         </h2>
         <VerticalTimeline>
@@ -69,7 +83,7 @@ function About() {
         </VerticalTimeline>
       </div>
       <div>
-        <h2 className='font-medium text-5xl hover:text-purpleNeon animate-fade-down animate-duration-700 animate-delay-[1400ms] animate-ease-in'>
+        <h2 className='my-10 font-medium text-5xl hover:text-purpleNeon animate-fade-down animate-duration-700 animate-delay-[1400ms] animate-ease-in'>
           Education
         </h2>
         <VerticalTimeline layout='1-column-left'>

@@ -8,7 +8,7 @@ function App() {
         <div className='self-center'>
           <NavBar/>
         </div>
-        <div className='flex grow'>
+        <div className='flex grow px-9'>
             <Routes>
               <Route exact path='/' element={<Home/>}/>
               <Route path='/home' element={<Home/>}/>
