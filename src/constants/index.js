@@ -110,8 +110,8 @@ export const experiences = [
     {
         title: "Wordpress Developer",
         companyName: "Webpick",
-        icon: "webpick",
-        iconBg: "#000",
+        icon: "/src/assets/webPickLogo.png",
+        iconBg: "#fff",
         date: "July 2022 - September 2022",
         points: [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -123,8 +123,8 @@ export const experiences = [
     {
         title: "Wordpress Developer",
         companyName: "Meta",
-        icon: "Meta",
-        iconBg: "#000",
+        icon: "/src/assets/ofLogo.png",
+        iconBg: "#fff",
         date: "July 2022 - September 2022",
         points: [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -139,7 +139,7 @@ export const education = [
     {
         title: "National School Of Applied Sciences",
         description: "Engineering degree",
-        icon: "ensa kech",
+        icon: "/src/assets/ensaLogo.png",
         iconBg: "#fff",
         date: "September 2019 - September 2024",
         modules: [
