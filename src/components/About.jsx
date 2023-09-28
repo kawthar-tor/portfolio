@@ -19,7 +19,7 @@ function About() {
         </h2>
         {
           overviewElements.map((element, index) => (
-            <div key={index} className='text-white animate-fade animate-duration-700 animate-delay-700 animate-ease-in overflow-hidden w-2/4 rounded-lg bg-terminalGray mx-auto'>
+            <div key={index} className='text-white animate-fade-right animate-duration-700 animate-delay-700 animate-ease-in overflow-hidden w-2/4 rounded-lg bg-terminalGray mx-auto'>
               <div className='mb-4 bg-terminalTop flex py-2 items-center'>
                 <img className='w-icon flex h-icon ' src="/src/assets/redCircle.svg" alt="" />
                 <img className='w-icon flex h-icon' src="/src/assets/yellowCircle.svg" alt="" />
@@ -30,7 +30,6 @@ function About() {
               <div className='m-3'>
                 <SpanWrapper item={`${element.userName}@portfolio:`} style='text-terminalGreenText mr-0 font-bold'/>
                 <SpanWrapper item={"~$"}/>
-                <SpanWrapper item={"cd"} style='text-terminalGreenText'/>
                 <SpanWrapper item={`${element.fileName};`} />
                 <p className='text-justify'>
                   {element.content}

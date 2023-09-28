@@ -30,6 +30,9 @@ export default {
       },
       height : {
         icon : "35px"
+      },
+      boxShadow : {
+        card : "1px -1px 19px 0px #9400FF"
       }
     },
   },

@@ -154,41 +154,129 @@ export const education = [
 
 export const projectFilters = [
     {
-        icon : "",
+        icon : "/src/assets/all.svg",
         name : "All"
     },
     {
-        icon : "",
+        icon : "/src/assets/python.svg",
         name : "Python"
     },
     {
-        icon : "",
-        name : "React.js"
+        icon : "/src/assets/react.svg",
+        name : "React"
     },
 ];
 
 export const projects = [
     {
-        name: "Wordpress website",
+        title: "Wordpress website",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus ante ac mauris pretium tincidunt. Integer facilisis nibh at pretium euismod. Ut aliquet nisi id erat facilisis, ac maximus nisi efficitur. Nulla maximus ante nec rhoncus vulputate. Nullam pharetra justo sed nunc fringilla, eget fermentum neque sodales.",
         tags: [
           {
             name: "php",
-            color: "blue-text-gradient",
+            style: 'text-[#7377AD]',
           },
           {
             name: "mySql",
-            color: "green-text-gradient",
+            style: "text-[#DD8900]",
           },
           {
             name: "javascript",
-            color: "pink-text-gradient",
+            style: "text-[#efd81d]",
           },
         ],
-        image: "Editorialink",
-        source_code_link: "https://github.com/",
-        live_preview_link: "https://preview"
+        image: '/src/assets/project.png',
+        sourceCodeLink: "https://github.com/",
+        livePreviewLink: "https://preview"
+      },
+      {
+        title: "Wordpress website",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus ante ac mauris pretium tincidunt. Integer facilisis nibh at pretium euismod. Ut aliquet nisi id erat facilisis, ac maximus nisi efficitur. Nulla maximus ante nec rhoncus vulputate. Nullam pharetra justo sed nunc fringilla, eget fermentum neque sodales.",
+        tags: [
+          {
+            name: "php",
+            style: 'text-[#7377AD]',
+          },
+          {
+            name: "mySql",
+            style: "text-[#DD8900]",
+          },
+          {
+            name: "javascript",
+            style: "text-[#efd81d]",
+          },
+        ],
+        image: '/src/assets/project.png',
+        sourceCodeLink: "https://github.com/",
+        livePreviewLink: "https://preview"
+      },
+      {
+        title: "Wordpress website",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus ante ac mauris pretium tincidunt. Integer facilisis nibh at pretium euismod. Ut aliquet nisi id erat facilisis, ac maximus nisi efficitur. Nulla maximus ante nec rhoncus vulputate. Nullam pharetra justo sed nunc fringilla, eget fermentum neque sodales.",
+        tags: [
+          {
+            name: "php",
+            style: 'text-[#7377AD]',
+          },
+          {
+            name: "mySql",
+            style: "text-[#DD8900]",
+          },
+          {
+            name: "javascript",
+            style: "text-[#efd81d]",
+          },
+        ],
+        image: '/src/assets/project.png',
+        sourceCodeLink: "https://github.com/",
+        livePreviewLink: "https://preview"
+      },
+      {
+        title: "Wordpress website",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus ante ac mauris pretium tincidunt. Integer facilisis nibh at pretium euismod. Ut aliquet nisi id erat facilisis, ac maximus nisi efficitur. Nulla maximus ante nec rhoncus vulputate. Nullam pharetra justo sed nunc fringilla, eget fermentum neque sodales.",
+        tags: [
+          {
+            name: "php",
+            style: 'text-[#7377AD]',
+          },
+          {
+            name: "mySql",
+            style: "text-[#DD8900]",
+          },
+          {
+            name: "javascript",
+            style: "text-[#efd81d]",
+          },
+        ],
+        image: '/src/assets/project.png',
+        sourceCodeLink: "https://github.com/",
+        livePreviewLink: "https://preview"
+      },
+      {
+        title: "Wordpress website",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus ante ac mauris pretium tincidunt. Integer facilisis nibh at pretium euismod. Ut aliquet nisi id erat facilisis, ac maximus nisi efficitur. Nulla maximus ante nec rhoncus vulputate. Nullam pharetra justo sed nunc fringilla, eget fermentum neque sodales.",
+        tags: [
+          {
+            name: "php",
+            style: 'text-[#7377AD]',
+          },
+          {
+            name: "mySql",
+            style: "text-[#DD8900]",
+          },
+          {
+            name: "javascript",
+            style: "text-[#efd81d]",
+          },
+        ],
+        image: '/src/assets/project.png',
+        sourceCodeLink: "https://github.com/",
+        livePreviewLink: "https://preview"
       },
 ];
 
