@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 function Home() {
   return (
-    <div className='flex h-screen self-center mx-auto'>
+    <div className='flex justify-center'>
       <div className='p-6'>
         {
           profile.map((picture, index) => (
