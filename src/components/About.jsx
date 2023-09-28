@@ -2,15 +2,9 @@ import React from 'react'
 import {overviewElements, experiences, education} from '../constants/index';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import Terminal from './terminal';
 
 function About() {
-  const SpanWrapper = ({item, style}) =>{
-    return (
-      <span className={`mr-3 ${style}`}>
-        {item}
-      </span>
-    )
-  }
   return (
     <div>
       <div>
@@ -18,24 +12,8 @@ function About() {
           Overview
         </h2>
         {
-          overviewElements.map((element, index) => (
-            <div key={index} className='text-white animate-fade-right animate-duration-700 animate-delay-700 animate-ease-in overflow-hidden w-2/4 rounded-lg bg-terminalGray mx-auto'>
-              <div className='mb-4 bg-terminalTop flex py-2 items-center'>
-                <img className='w-icon flex h-icon ' src="/src/assets/redCircle.svg" alt="" />
-                <img className='w-icon flex h-icon' src="/src/assets/yellowCircle.svg" alt="" />
-                <img className='w-icon flex h-icon' src="/src/assets/greenCircle.svg" alt="" />
-                <img className='w-icon h-icon hover:animate-wiggle ml-10' src="/src/assets/folder.svg" alt="" />
-                <span className='text-navy'>/{element.userName}-bash</span>
-              </div>
-              <div className='m-3'>
-                <SpanWrapper item={`${element.userName}@portfolio:`} style='text-terminalGreenText mr-0 font-bold'/>
-                <SpanWrapper item={"~$"}/>
-                <SpanWrapper item={`${element.fileName};`} />
-                <p className='text-justify'>
-                  {element.content}
-                </p>
-              </div>
-            </div>
+          overviewElements.map((element) => (
+          <Terminal username={element.userName} fileName={element.fileName} content={element.content}/>
           ))
         }
       </div>

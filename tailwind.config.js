@@ -32,7 +32,8 @@ export default {
         icon : "35px"
       },
       boxShadow : {
-        card : "1px -1px 19px 0px #9400FF"
+        projectCard : "1px -1px 19px 0px #9400FF",
+        skillCard : "1px 0px 7px 1px #9400FF"
       }
     },
   },
