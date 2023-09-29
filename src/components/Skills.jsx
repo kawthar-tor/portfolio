@@ -41,14 +41,22 @@ function Skills() {
       <h2 className='font-medium text-5xl'>Soft skills</h2>
       <section className='my-20'>
       {personalSkillsOverview.map(element => <Terminal username={element.userName} fileName={element.fileName} content={element.content}/>)}
+      <div className='flex py-16 gap-4 justify-center cursor-pointer hover:animate-none animate-fade-left animate-infinite animate-duration-[3000ms]' onAnimationIteration={nextItem}>
       {
         currentIndexes.map(index => (
-          <div className=' animate-fade-left animate-infinite animate-duration-[3000ms]' onAnimationIteration={nextItem}>
-            {softSkills[index].description}
-            <span className='cursor-pointer'  onClick={nextItem}>+</span>
+          <div key={index}>
+            <p className='shadow-skillCard text-center font-semibold italic'>
+              <img className='w-[28px] h-[28px] ml-[2.8%]' src="/src/assets/leftQuote.svg" alt="" />
+              {softSkills[index].description}
+              <img className='w-[28px] h-[28px] ml-[90%]' src="/src/assets/rightQuote.svg" alt="" />
+
+            </p>
+            <div className='bg-cover w-96 h-96 my-5 rounded-lg' style={{backgroundImage : `url(${softSkills[index].image})`}}>
+            </div>
           </div>
         ))
       }
+      </div>
       </section>
     </div>
   )
