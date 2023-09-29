@@ -1,7 +1,11 @@
-import React from 'react'
-import {professionalTitles, professionalSkillsOverview, technologies, personalSkillsOverview, softSkills} from '../constants/index';
+import React, {useState} from 'react'
+import {professionalTitles, tools, professionalSkillsOverview, technologies, personalSkillsOverview, softSkills} from '../constants/index';
 import Terminal from './terminal';
 function Skills() {
+  const [currentIndexes, setCurrentIndexes] = useState([0,1,2]);
+  const nextItem = () => {
+    setCurrentIndexes([(currentIndexes[0]+1)%softSkills.length,(currentIndexes[1]+1)%softSkills.length,(currentIndexes[2]+1)%softSkills.length]);
+  }
   return (
     <div>
       <h2 className='font-medium text-5xl'>What I can do so far ?</h2>
@@ -28,20 +32,25 @@ function Skills() {
       ))}
       </div>
       </section>
+      <h2 className='font-medium text-5xl'>Tools</h2>
+      <section className='flex justify-center gap-3 my-20'>
+        {tools.map(tool => (
+          <img src={tool.icon} alt="Programming tool" className='pointer-cursor'/>
+        ))}
+      </section>
       <h2 className='font-medium text-5xl'>Soft skills</h2>
       <section className='my-20'>
       {personalSkillsOverview.map(element => <Terminal username={element.userName} fileName={element.fileName} content={element.content}/>)}
-        {softSkills.map(softSkill => (
-          // Carousel
-          <div className='my-16'>
-            <h3>{softSkill.name}</h3>
-            {softSkill.desc}
+      {
+        currentIndexes.map(index => (
+          <div className=' animate-fade-left animate-infinite animate-duration-[3000ms]' onAnimationIteration={nextItem}>
+            {softSkills[index].description}
+            <span className='cursor-pointer'  onClick={nextItem}>+</span>
           </div>
-        ))}
-
+        ))
+      }
       </section>
     </div>
   )
 }
-
 export default Skills

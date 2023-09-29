@@ -8,7 +8,7 @@ function Home() {
       <div className='p-6'>
         {
           profile.map((picture, index) => (
-            <img className='rounded-full max-w-xs' key={picture.id} src={picture.link} alt={picture.id} />
+            <img className='rounded-full max-w-xs shadow-skillCard' key={picture.id} src={picture.link} alt={picture.id} />
           ))
         }
       </div>
@@ -41,9 +41,9 @@ function Home() {
         </ul>
         <div className='flex self-center'>
         {
-          platformsLinks.map((platfom, index) => (
-            <a className='hover:animate-wiggle animate-once' key={platfom.name} href={platfom.link}>
-              <img className='w-icon h-icon' src={platfom.icon} alt={platfom.name}/>
+          platformsLinks.map((platform, index) => (
+            <a className='hover:animate-wiggle animate-once' key={platform.name} href={platform.link}>
+              <img className='w-icon h-icon' src={platform.icon} alt={platform.name}/>
             </a>
           ))
         }

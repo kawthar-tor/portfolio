@@ -334,14 +334,44 @@ export const personalSkillsOverview = [
       content : "I’m a likely person, optimistic and hard worker."
   }
 ];
+export const tools = [
+  {
+    name : "Vs code",
+    icon : "Vs code svg"
+  },
+  {
+    name : "Intellij",
+    icon : "Intellij svg"
+  },
+  {
+    name : "Figma",
+    icon : "figma"
+  },
+  {
+    name : "Notion",
+    icon : "Notion svg"
+  },
+]
 
 export const softSkills = [
   {
-      name : "Leadership",
-      desc : "I was born a leader"
+    image : "/src/assets/gitex.jpg",
+    description : "0I was born a leader"
   },
   {
-      name : "Team worker",
-      desc : "I goodly work in teams"
+    image : "/src/assets/gitex.jpg",
+    description : "1I goodly work in teams"
+  },
+  {
+    image : "/src/assets/gitex.jpg",
+    description : "2I love myself"
+  },
+  {
+    image : "/src/assets/gitex.jpg",
+    description : "3I love itachi"
+  },
+  {
+    image : "/src/assets/gitex.jpg",
+    description : "4I love naruto"
   },
 ]
