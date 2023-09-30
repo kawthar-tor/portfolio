@@ -1,3 +1,5 @@
+export const fullName = 'Kaouthar Kabiri'
+
 export const navLinks = [
   {
       id : "home",
@@ -37,10 +39,6 @@ export const profile = [
 ];
 
 export const introductionItems = [
-  {
-      id : "fullName",
-      title : "Kaouthar Kabiri"
-  },
   {
       id : "item1",
       title : "Computer science engineering student"
@@ -375,3 +373,5 @@ export const softSkills = [
     description : "4I love naruto"
   },
 ]
+
+export const resumePdf = '/src/assets/CV_PFA.pdf';

@@ -1,5 +1,5 @@
 import React from 'react'
-import {introductionItems, profile, introductionParagraphs, platformsLinks} from '../constants/index';
+import {fullName, introductionItems, profile, introductionParagraphs, platformsLinks} from '../constants/index';
 import Typewriter from 'typewriter-effect';
 
 function Home() {
@@ -18,11 +18,11 @@ function Home() {
           <span className='inline-block animate-wiggle-more animate-infinite animate-ease-linear'>
             👋🏻
           </span>
-          , I'am {introductionItems[0].title}
+          , I'am {fullName}
           <span className='text-[20px] text-purpleNeon'>
             <Typewriter options={
               {
-                strings: introductionItems.map((item, index) => (item.id !== "fullName" ? item.title : "")),
+                strings: introductionItems.map((item, index) => item.title),
                 autoStart: true,
                 loop: true,
               }
