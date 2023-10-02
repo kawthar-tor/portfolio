@@ -4,22 +4,22 @@ import Typewriter from 'typewriter-effect';
 
 function Home() {
   return (
-    <div className='flex justify-center'>
+    <div className='flex flex-wrap md:flex-nowrap justify-center'>
       <div className='p-6'>
         {
-          profile.map((picture, index) => (
+          profile.map((picture) => (
             <img className='rounded-full max-w-xs shadow-skillCard' key={picture.id} src={picture.link} alt={picture.id} />
           ))
         }
       </div>
       <div className='flex flex-col gap-10'>
-        <h1 className='inline-block font-semibold text-[52px]'>
+        <h1 className='inline-block font-semibold text-2xl md:text-6xl'>
           Hi
           <span className='inline-block animate-wiggle-more animate-infinite animate-ease-linear'>
             👋🏻
           </span>
           , I'am {fullName}
-          <span className='text-[20px] text-purpleNeon'>
+          <span className='text-lg md:text-3xl text-purpleNeon'>
             <Typewriter options={
               {
                 strings: introductionItems.map((item, index) => item.title),

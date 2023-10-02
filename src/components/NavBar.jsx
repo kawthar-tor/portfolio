@@ -2,25 +2,29 @@ import React from 'react';
 import menu from '../assets/menu.svg';
 import close from '../assets/close.svg';
 import { useState } from 'react';
-import {navLinks} from '../constants';
+import {navLinks, fullName} from '../constants';
 import { Link } from 'react-router-dom';
 function NavBar() {
   const [toggle, setToggle] = useState(true);
+  const [activeLink, setActiveLink] = useState('');
   return (
     <nav className='py-6 flex'>
-        <div className='inline-block md:hidden'>
-          <img src={toggle ? menu : close} alt="menu" className='w-icon h-icon' onClick={() => setToggle(!toggle)}/>
+        <div className='inline-block relative w-full md:hidden'>
+          <div className='relative mb-16'>
+            <span className='absolute left-8 font-["Clicker_Script"] text-4xl'>{fullName}</span>
+            <img src={!toggle ? menu : close} alt="menu" className={`w-icon absolute cursor-pointer right-8 inline-block h-icon`} onClick={() => setToggle(!toggle)}/>
+          </div>
           {
           toggle ?
-          <ul>
+          <ul className='text-center'>
           {
             navLinks.map((nav, index) => (
               <li
               className={`
+              ${activeLink === nav.id ? 'text-2xl' : 'border-none'}
               ${nav.id === "logo" ? "hidden" : "font-semibold"} my-3 hover:text-purpleNeon transition duration-700 ease-in-out transform hover:translate-x-1`}
               key={nav.id}
-              onPointerOver={() => {
-              }}
+              onClick={()=>setActiveLink(nav.id)}
               >
                 <Link to={`/${nav.id}`}>{nav.title}</Link>
               </li>

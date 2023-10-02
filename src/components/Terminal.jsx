@@ -9,7 +9,7 @@ function Terminal({username, fileName, content}) {
         )
       }
   return (
-    <div className='text-white animate-fade-right animate-duration-700 animate-delay-700 animate-ease-in overflow-hidden w-2/4 rounded-lg bg-terminalGray mx-auto'>
+    <div className='text-white animate-fade-right animate-duration-700 animate-delay-700 animate-ease-in overflow-hidden md:w-2/4 rounded-lg bg-terminalGray mx-auto'>
     <div className='mb-4 bg-terminalTop flex py-2 items-center'>
       <img className='w-icon flex h-icon ' src="/src/assets/redCircle.svg" alt="" />
       <img className='w-icon flex h-icon' src="/src/assets/yellowCircle.svg" alt="" />

@@ -12,10 +12,10 @@ function Projects() {
           </button>
         ))}
       </div>
-      <div className='flex justify-center flex-wrap gap-10'>
+      <div className='flex p-16 md:p-0 justify-center flex-wrap gap-10'>
       {
         (activeFilter === 'All' ? projects : projects.filter(project => project.tags.find(tag => tag.name === activeFilter))).map((project, index) => (
-          <div key={index} className={`flex gap-3 hover:shadow-projectCard hover:scale-[1.02] animate-fade transition duration-700 ease-in-out w-1/4 flex-col items-center overflow-hidden p-7 rounded-tl-3xl rounded-br-3xl bg-navy text-primary cursor-pointer`}>
+          <div key={index} className={`flex gap-3 hover:shadow-projectCard hover:scale-[1.02] animate-fade transition duration-700 ease-in-out md:w-1/4 flex-col items-center overflow-hidden p-7 rounded-tl-3xl rounded-br-3xl bg-navy text-primary cursor-pointer`}>
             <img src={project.image} alt="projectImage" className='w-full h-56 object-cover' />
             <h3 className='font-semibold text-xl'>{project.title}</h3>
             <p className='text-justify break-all'>{project.description}</p>

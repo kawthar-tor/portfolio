@@ -1,11 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { About, Contact, Home, NavBar, Projects, Resume, Skills } from '../src/components'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 function App() {
+  const [navBg, updateNavBg] = useState(false);
+  function scrollHandler() {
+    if (window.scrollY >= 80) {
+      updateNavBg(true);
+    } else {
+      updateNavBg(false);
+    }
+  }
+  window.addEventListener('scroll', scrollHandler);
   return (
     <Router>
-      <div className='font-montserrat text-navy flex md:flex-col'>
-        <div className='self-center'>
+      <div className='font-montserrat text-navy flex flex-col'>
+        <div className={`self-center w-full ${ navBg ? 'backdrop-blur-lg shadow-projectCard text-purpleNeon' : navBg} sticky top-0 z-30`}>
           <NavBar/>
         </div>
         <div className='p-9'>

@@ -11,7 +11,7 @@ function Resume() {
       <button className='shadow-skillCard p-3 my-5 rounded-lg'><img src="/src/assets/download.svg" className='w-[28px] h-[28px] inline-block' alt="" /><span>Download</span></button>
       </a>
       <Document file={resumePdf} className="d-flex justify-content-center">
-        <Page scale='1.5' pageNumber={1} wrap={false} />
+        <Page scale='1.1' pageNumber={1} wrap={false} />
       </Document>
       <a href={resumePdf} target='_blank'>
       <button className='shadow-skillCard p-3 my-5 rounded-lg'><img src="/src/assets/download.svg" className='w-[28px] h-[28px] inline-block' alt="" /><span>Download</span></button>

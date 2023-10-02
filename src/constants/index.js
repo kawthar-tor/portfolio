@@ -375,3 +375,15 @@ export const softSkills = [
 ]
 
 export const resumePdf = '/src/assets/CV_PFA.pdf';
+
+export const emailJsConf = [
+  {
+    serviceId : 'service_et8ig9m'
+  },
+  {
+    templateId : 'template_pq1znn9'
+  },
+  {
+    publicKey : 'V7gawyrkaOrnEoIq_'
+  }
+]
