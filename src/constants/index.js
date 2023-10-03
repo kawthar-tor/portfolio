@@ -432,73 +432,124 @@ export const projects = [
 // Skills
 
 export const professionalTitles = [
-  {
-      bg : "",
-      content : "Front-end and Back-end developper"
-  },
-  {
-      bg : "",
-      content : "Artificial intelligence enthousiast"
-  },
-  {
-      bg : "",
-      content : "React native developper"
-  },
-  {
-      bg : "",
-      content : "Python developper"
-  }
+  "Full stack web developer",
+  "Software developer",
+  "Mobile developer",
+  "AI enthusiast",
 ];
 
-export const professionalSkillsOverview = [
-  {
+export const professionalSkillsOverview = {
       userName : "KaoutharKabiri",
       fileName : "professionnalSkills",
-      content : "I have extensive experience working with a variety of technologies as a developer. I've developed and maintained multiple projects using these technologies, and I'm always eager to learn more."
-  }
-];
+      content : "I'm a naturally curious individual who has a deep passion for exploring and mastering various programming languages. This fascination drives me to constantly seek out new languages, each with its unique set of features and capabilities. My ultimate goal is to leverage this knowledge to craft stunning and innovative applications that can make a meaningful impact."
+};
 
 export const technologies = [
   {
-      name : "python",
+      name : "Python",
       icon : "/src/assets/python.svg",
-      frameworks : ["pygame"],
+      frameworks : ["Tkinter"]
   },
   {
-      name : "java",
-      icon : "/src/assets/java.svg",
-      frameworks : ["javaEE, scikitlearn"],
-  },
-  {
-    name : "javaScript",
+    name : "JavaScript",
     icon : "/src/assets/javascript.svg",
-    frameworks : ["Angular"],
-},
+    frameworks : ["React.js", "Node.js", "Express.js", "Angular", "jQuery"]
+  },
+  {
+    name : "Java",
+    icon : "/src/assets/java.svg",
+    frameworks : ["Spring", "Hibernate", "JSF"]
+  },
+  {
+    name : "C/C++",
+    icon : "/src/assets/cpp.svg",
+    frameworks : []
+  },
+  {
+    name : "Php",
+    icon : "/src/assets/php.svg",
+    frameworks : ["Symphony"]
+  },
+  {
+    name : "R",
+    icon : "/src/assets/R.svg",
+    frameworks : []
+  },
+  {
+    name : "Css",
+    icon : "/src/assets/css.svg",
+    frameworks : ["Tailwind Css"]
+  },
+  {
+    name : "Pl/Sql",
+    icon : "/src/assets/sql.svg",
+    frameworks : []
+  },
+  {
+    name : "Kotlin",
+    icon : "/src/assets/kotlin.svg",
+    frameworks : []
+  },
 ];
 
-export const personalSkillsOverview = [
-  {
+export const personalSkillsOverview = {
       userName : "KaoutharKabiri",
       fileName : "personnalSkills",
-      content : "I’m a likely person, optimistic and hard worker."
-  }
-];
+      content : "I'm a likely person, optimistic and hard worker."
+  };
+
 export const tools = [
   {
     name : "Vs code",
-    icon : "Vs code svg"
+    icon : "/src/assets/vsCode.svg"
   },
   {
     name : "Intellij",
-    icon : "Intellij svg"
+    icon : "/src/assets/intellij.svg"
   },
   {
     name : "Figma",
-    icon : "figma"
+    icon : "/src/assets/figma.svg"
   },
   {
     name : "Notion",
-    icon : "Notion svg"
+    icon : "/src/assets/notion.svg"
+  },
+  {
+    name : "Notion",
+    icon : "/src/assets/blender.svg"
+  },
+  {
+    name : "Notion",
+    icon : "/src/assets/eclipse.svg"
+  },
+  {
+    name : "Notion",
+    icon : "/src/assets/git.svg"
+  },
+  {
+    name : "Notion",
+    icon : "/src/assets/npm.svg"
+  },
+  {
+    name : "Notion",
+    icon : "/src/assets/openCV.svg"
+  },
+  {
+    name : "Notion",
+    icon : "/src/assets/oracle.svg"
+  },
+  {
+    name : "Notion",
+    icon : "/src/assets/workbench.svg"
+  },
+  {
+    name : "Notion",
+    icon : "/src/assets/postman.svg"
+  },
+  {
+    name : "Notion",
+    icon : "/src/assets/xampp.svg"
   },
 ]
 
