@@ -22,7 +22,7 @@ function Terminal({username, fileName, content}) {
       <SpanWrapper item={"~$"}/>
       <SpanWrapper item={`cat ${fileName};`} />
       <p className='text-justify'>
-        {content}
+        <div dangerouslySetInnerHTML={{ __html: content}} />
       </p>
     </div>
   </div>

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { About, Contact, Home, NavBar, Projects, Resume, Skills } from '../src/components'
+import { About, Contact, Footer, Home, NavBar, Projects, Resume, Skills } from '../src/components'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 function App() {
   const [navBg, updateNavBg] = useState(false);
@@ -29,6 +29,7 @@ function App() {
               <Route path='/resume' element={<Resume/>}/>
             </Routes>
         </div>
+        <Footer/>
       </div>
     </Router>
   )

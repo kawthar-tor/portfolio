@@ -5,10 +5,10 @@ import Typewriter from 'typewriter-effect';
 function Home() {
   return (
     <div className='flex flex-wrap md:flex-nowrap justify-center'>
-      <div className='p-6'>
+      <div className='p-6 max-w-sm'>
         {
           profile.map((picture) => (
-            <img className='rounded-full max-w-xs shadow-skillCard' key={picture.id} src={picture.link} alt={picture.id} />
+            <img className='rounded-full w-auto h-auto shadow-skillCard' key={picture.id} src={picture.link} alt={picture.id} />
           ))
         }
       </div>
@@ -42,7 +42,7 @@ function Home() {
         <div className='flex self-center'>
         {
           platformsLinks.map((platform, index) => (
-            <a className='hover:animate-wiggle animate-once' key={platform.name} href={platform.link}>
+            <a className='hover:animate-wiggle animate-once' key={platform.name} target='_blank' href={platform.link}>
               <img className='w-icon h-icon' src={platform.icon} alt={platform.name}/>
             </a>
           ))

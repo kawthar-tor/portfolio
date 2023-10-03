@@ -49,7 +49,15 @@ export const introductionItems = [
   },
   {
       id : "item3",
-      title : "AI enthusiast"
+      title : "Open source contributor"
+  },
+  {
+    id : "item4",
+    title : "Python developer"
+  },
+  {
+    id : "item5",
+    title : "AI passionate"
   }
 ];
 
@@ -60,7 +68,7 @@ export const introductionParagraphs = [
   },
   {
       icon : "/src/assets/school.svg",
-      title : "Studying at the National School Of Applied Sciences"
+      title : "Studying at the National School Of Applied Sciences Of Marrakech"
   },
   {
       icon : "/src/assets/nature.svg",
@@ -68,7 +76,7 @@ export const introductionParagraphs = [
   },
   {
       icon : "/src/assets/phone.svg",
-      title : "+212627xxxxx"
+      title : "+212-627002598"
   },
   {
       icon : "/src/assets/mail.svg",
@@ -85,7 +93,7 @@ export const platformsLinks = [
   {
       name : "Resume",
       icon : "/src/assets/cv.svg",
-      link : "myResumeLink"
+      link : "/src/assets/CV_PFA.pdf"
   },
   {
       name : "Github",
@@ -100,50 +108,81 @@ export const overviewElements = [
   {
       userName : "KaoutharKabiri",
       fileName : "aboutKaouthar",
-      content : "I'm kaouthar kabiri  I'm 22 years old , a final year computer science engineering student at the National School Of Applied Sciences Of Marrakech an associed college of Cadi Ayyad University, which is one of the best global universities in Africa.I enjoy solving problems and programming the best solutions."
+      content : `
+      I'm <i>kaouthar kabiri</i> , I'm 22 years old, a final year computer science engineering student at the National School Of Applied Sciences Of Marrakech an esteemed institution associated with Cadi Ayyad University.<br/>
+      I am proud to be a part of Cadi Ayyad University, which is recognized as one of the best global universities in Africa.<br/>
+      Throughout my academic journey, I have had the privilege of gaining a solid foundation in computer science principles and a wide range of skills in various technologies, particularly in web and data science.<br/>
+      My expertise includes working with frameworks such as React, Node.js, and Express.js, allowing me to develop efficient, scalable, and user-friendly solutions.<br/>
+      <br/>
+      I am passionate about bringing innovative ideas to life through technology.<br/>
+      Your company's reputation for fostering creativity and pushing the boundaries aligns perfectly with my aspirations.<br/>
+      I believe that working together, we can create solutions that not only meet the needs of your organization but also make a meaningful impact on the world.<br/>
+      `
   }
 ];
 
 export const experiences = [
   {
-      title: "Wordpress Developer",
-      companyName: "Webpick",
+      title: "Full stack developer",
+      companyName: "Webpick - EBF Marrakech",
       icon: "/src/assets/webPickLogo.png",
       iconBg: "#fff",
-      date: "July 2022 - September 2022",
+      technologies : "Php - Sql - WordPress - Sass - jQuery - Javascript - Apis",
+      date: "15 July 2022 - 31 August 2022",
       points: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Donec et tellus vitae sem pretium tincidunt.",
-        "Curabitur interdum libero vitae urna ullamcorper porta.",
-        "Aliquam nec quam a neque elementum gravida.",
+        "I contributed to the development of an administrable theme using WordPress as a CMS (Content Management System)",
+        "I was responsible for both front-end and back-end functionalities development.",
+        "I collaborated with my team of developers to customize the theme to meet the client's needs and improve its server performance.",
+        "I successfully customized plugins to create an easily manageable website.",
+        "I learned adaptability, stress management, and good communication during my internship at webPick."
       ]
   },
   {
-      title: "Wordpress Developer",
-      companyName: "Meta",
+      title: "Web developer",
+      companyName: "OpenFlyers - France",
       icon: "/src/assets/ofLogo.png",
+      technologies : "React.js - JavaScript - Apis - Node.js - Php - Express.js - Http/Tcp/Ip protocols - Sequilize",
       iconBg: "#fff",
-      date: "July 2022 - September 2022",
+      date: "26 July 2023 - 28 August 2023",
       points: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Donec et tellus vitae sem pretium tincidunt.",
-        "Curabitur interdum libero vitae urna ullamcorper porta.",
-        "Aliquam nec quam a neque elementum gravida.",
+        "I developed robust algorithms for tracking flights for aviation academies.",
+        "I was reasponsible for the development of an algorithm that analyzes aircraft positions and send alerts via an API to the flight's responsible parties.",
+        "I took on significant responsibilities during this internship. I learned to challenge myself and improve my communication skills in French, as it was a French company.",
+        "I toke a big responsability during this intership , I learned to challenge my self and good communication in french since its a french company",
+        "I learned to be rigorous, organized, estimate task durations, present my work in meetings, and propose solutions.",
       ]
   },
 ];
 
 export const education = [
   {
-      title: "National School Of Applied Sciences",
-      description: "Engineering degree",
+      title: "National School Of Applied Science",
+      link : "https://www.ensa.ac.ma/",
+      description: "Computer science engineering degree - bac+5",
       icon: "/src/assets/ensaLogo.png",
       iconBg: "#fff",
       date: "September 2019 - September 2024",
       modules: [
-          "Data Analysis",
-          "Oracle",
-          "DBs"
+          "Telecommunication and informatics",
+          "Object-oriented programming C/C++",
+          "Digital electronics",
+          "Scientific Computing",
+          "Databases : Mysql and Oracle as relational Database Management Systems",
+          "Algorithm analysis and complexity",
+          "Operating systems and Unix",
+          "Web 3.0",
+          "Python",
+          "Management and business economics",
+          "Java",
+          "Shell programming and Unix administration",
+          "Image processing and 3D",
+          "Deep learning and computer vision",
+          "JEE",
+          "Big data",
+          "Artificial intelligence",
+          "Business intelligence",
+          "NoSql"
+
       ]
     },
 ];
@@ -163,118 +202,230 @@ export const projectFilters = [
       icon : "/src/assets/react.svg",
       name : "React"
   },
+  {
+    icon : "/src/assets/php.svg",
+    name : "Php"
+  },
+  {
+    icon : "/src/assets/javascript.svg",
+    name : "JavaScript"
+  },
+  {
+    icon : "/src/assets/spring.svg",
+    name : "JEE"
+  },
+  {
+    icon : "/src/assets/java.svg",
+    name : "Java"
+  },
+  {
+    icon : "/src/assets/android.svg",
+    name : "Android"
+  },
 ];
 
 export const projects = [
   {
-      title: "Wordpress website",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus ante ac mauris pretium tincidunt. Integer facilisis nibh at pretium euismod. Ut aliquet nisi id erat facilisis, ac maximus nisi efficitur. Nulla maximus ante nec rhoncus vulputate. Nullam pharetra justo sed nunc fringilla, eget fermentum neque sodales.",
+      title: "Interactive Card Game : UNO",
+      description: `
+      We developed a desktop Python application for the immensely popular game, <b>UNO</b>. The user interfaces were created using pygame, and the game supports multiplayer functionality. We implemented various difficulty levels and included the option to play against a computer opponent. We adopted an object-oriented approach to streamline team collaboration.
+      `,
+      status : {
+        icon : "/src/assets/completed.svg",
+        title : "Completed"
+      },
       tags: [
         {
-          name: "php",
-          style: 'text-[#7377AD]',
+          name: "Python",
+          style: 'text-[#316897]',
         },
         {
-          name: "mySql",
-          style: "text-[#DD8900]",
+          name: "PyGame",
+          style: "text-[#93008B]",
         },
         {
-          name: "javascript",
+          name: "Sockets",
           style: "text-[#efd81d]",
-        },
+        }
       ],
-      image: '/src/assets/project.png',
+      image: '/src/assets/unoProject.jpeg',
       sourceCodeLink: "https://github.com/",
-      livePreviewLink: "https://preview"
     },
     {
-      title: "Wordpress website",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus ante ac mauris pretium tincidunt. Integer facilisis nibh at pretium euismod. Ut aliquet nisi id erat facilisis, ac maximus nisi efficitur. Nulla maximus ante nec rhoncus vulputate. Nullam pharetra justo sed nunc fringilla, eget fermentum neque sodales.",
+      title: "E-commerce website for cosmetics",
+      description: `
+      This is a personal project aimed at selling cosmetics products for women, which can be administered and potentially customized by brands through the integration of WordPress. I aimed for speed during implementation, which is evident in the choice of technologies.
+      `,
+      status : {
+        icon : "/src/assets/completed.svg",
+        title : "Completed"
+      },
       tags: [
         {
-          name: "php",
-          style: 'text-[#7377AD]',
+          name: "Wordpress",
+          style: 'text-[#0875C0]',
         },
         {
-          name: "mySql",
-          style: "text-[#DD8900]",
+          name: "Php",
+          style: "text-[#7377AD]",
         },
         {
-          name: "javascript",
-          style: "text-[#efd81d]",
+          name: "JavaScript",
+          style: "text-[#EFD81D]",
         },
+        {
+          name: "Sass",
+          style: "text-[#C76494]",
+        },
+        {
+          name: "Sql",
+          style: "text-[#DD8A00]",
+        }
       ],
-      image: '/src/assets/project.png',
-      sourceCodeLink: "https://github.com/",
-      livePreviewLink: "https://preview"
+      image: '/src/assets/cosmeticsProject.png',
+      sourceCodeLink: "https://github.com/kawthar-tor/cosmetics",
     },
     {
-      title: "Wordpress website",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus ante ac mauris pretium tincidunt. Integer facilisis nibh at pretium euismod. Ut aliquet nisi id erat facilisis, ac maximus nisi efficitur. Nulla maximus ante nec rhoncus vulputate. Nullam pharetra justo sed nunc fringilla, eget fermentum neque sodales.",
+      title: "Apache Log Analyzer",
+      description: `
+      This is a desktop application developed in Java, using the JavaFX package to integrate interface components. This application allows real-time visualization of the results of data analysis recorded in the logs of a web server.
+      `,
+      status : {
+        icon : "/src/assets/completed.svg",
+        title : "Completed"
+      },
       tags: [
         {
-          name: "php",
-          style: 'text-[#7377AD]',
+          name: "Java",
+          style: 'text-[#E61F24]',
         },
         {
-          name: "mySql",
-          style: "text-[#DD8900]",
+          name: "JavaFX",
+          style: "text-[#EE861E]",
         },
         {
-          name: "javascript",
-          style: "text-[#efd81d]",
+          name: "Dashboard",
+          style: "text-[#8BB700]",
         },
+        {
+          name: "MultiThreading",
+          style: "text-[#CDCDFF]",
+        },
+        {
+          name: "Regex",
+          style: "text-[#F0C2D5]",
+        }
       ],
-      image: '/src/assets/project.png',
-      sourceCodeLink: "https://github.com/",
-      livePreviewLink: "https://preview"
+      image: '/src/assets/logAnalyzerProject.jpg',
+      sourceCodeLink: "https://github.com/kawthar-tor/log-analyzer",
     },
     {
-      title: "Wordpress website",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus ante ac mauris pretium tincidunt. Integer facilisis nibh at pretium euismod. Ut aliquet nisi id erat facilisis, ac maximus nisi efficitur. Nulla maximus ante nec rhoncus vulputate. Nullam pharetra justo sed nunc fringilla, eget fermentum neque sodales.",
+      title: "E-Banking Application",
+      description: `
+      This web application has been meticulously crafted using Java EE (Enterprise Edition) and Angular. It offers a comprehensive range of online banking services with a focus on personalization for various user roles. The application intelligently distinguishes between different user roles, tailoring the services and features to meet the unique needs and permissions of each role.<br/>
+      `,
+      status : {
+        icon : "/src/assets/completed.svg",
+        title : "Completed"
+      },
       tags: [
         {
-          name: "php",
-          style: 'text-[#7377AD]',
+          name: "JEE",
+          style: 'text-[#F5B33E]',
         },
         {
-          name: "mySql",
-          style: "text-[#DD8900]",
+          name: "Java",
+          style: "text-[#EE861E]",
         },
         {
-          name: "javascript",
-          style: "text-[#efd81d]",
+          name: "Angular",
+          style: "text-[#D82D2F]",
+        },
+        {
+          name: "Hibernate",
+          style: "text-[#B6A975]",
+        },
+        {
+          name: "Spring",
+          style: "text-[#5CB230]",
+        },
+        {
+          name: "Web services",
+          style: "text-[#EE861E]",
+        },
+        {
+          name: "REST Api",
+          style: "text-[#C9DDEF]",
+        },
+        {
+          name: "Sql",
+          style: "text-[#EE861E]",
         },
       ],
-      image: '/src/assets/project.png',
-      sourceCodeLink: "https://github.com/",
-      livePreviewLink: "https://preview"
+      image: '/src/assets/ebankingProject.png',
+      sourceCodeLink: "hhttps://github.com/kawthar-tor/Ebanking",
     },
     {
-      title: "Wordpress website",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus ante ac mauris pretium tincidunt. Integer facilisis nibh at pretium euismod. Ut aliquet nisi id erat facilisis, ac maximus nisi efficitur. Nulla maximus ante nec rhoncus vulputate. Nullam pharetra justo sed nunc fringilla, eget fermentum neque sodales.",
+      title: "Real Estate Mobile Application",
+      description: `
+      This is an mobile application for real estate that allows users to browse available real estate listings based on the criteria they have entered. They will be notified of each listing that matches their preferences, which they can modify at any time.
+      `,
+      status : {
+        icon : "/src/assets/completed.svg",
+        title : "Completed"
+      },
       tags: [
         {
-          name: "php",
-          style: 'text-[#7377AD]',
+          name: "Kotlin",
+          style: 'text-[#BD21F1]',
         },
         {
-          name: "mySql",
-          style: "text-[#DD8900]",
+          name: "JetPack Compose",
+          style: "text-[#4081EC]",
         },
         {
-          name: "javascript",
-          style: "text-[#efd81d]",
+          name: "Firebase",
+          style: "text-[#F7C62E]",
+        },
+        {
+          name: "Android",
+          style: "text-[#A4C639]",
         },
       ],
-      image: '/src/assets/project.png',
-      sourceCodeLink: "https://github.com/",
-      livePreviewLink: "https://preview"
+      image: '/src/assets/immobilierProject.png',
+      sourceCodeLink: "https://github.com/kawthar-tor/Real-Estate-Mobile-App",
+    },
+    {
+      title: "Portfolio",
+      description: `
+      I have personally designed and developed this portfolio using cutting-edge technologies to ensure that it is highly customizable.
+      I have created a platform that allows for extensive personalization.
+      Users will easily tailor the content, layout, and design to suit their unique preferences and needs.
+      This portfolio serves as a showcase of my skills and expertise, highlighting my ability to create dynamic and adaptable web solutions.`,
+      status : {
+        icon : "/src/assets/notFinished.svg",
+        title : "In development"
+      },
+      tags: [
+        {
+          name: "React",
+          style: 'text-[#5ED3F3]',
+        },
+        {
+          name: "JavaScript",
+          style: "text-[#EFD81D]",
+        },
+        {
+          name: "Tailwind Css",
+          style: "text-[#36B7F0]",
+        },
+        {
+          name: "Three.js",
+          style: "text-[#000]",
+        },
+      ],
+      image: '/src/assets/portfolioProject.png',
+      sourceCodeLink: "https://github.com/kawthar-tor/Real-Estate-Mobile-App",
     },
 ];
 

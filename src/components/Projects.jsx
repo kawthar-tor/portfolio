@@ -17,19 +17,19 @@ function Projects() {
         (activeFilter === 'All' ? projects : projects.filter(project => project.tags.find(tag => tag.name === activeFilter))).map((project, index) => (
           <div key={index} className={`flex gap-3 hover:shadow-projectCard hover:scale-[1.02] animate-fade transition duration-700 ease-in-out md:w-1/4 flex-col items-center overflow-hidden p-7 rounded-tl-3xl rounded-br-3xl bg-navy text-primary cursor-pointer`}>
             <img src={project.image} alt="projectImage" className='w-full h-56 object-cover' />
-            <h3 className='font-semibold text-xl'>{project.title}</h3>
-            <p className='text-justify break-all'>{project.description}</p>
-            <div className='flex gap-3'>
+            <h3 className='font-semibold text-xl text-center'>{project.title}</h3>
+            <div className='text-justify' dangerouslySetInnerHTML={{ __html: project.description}} />
+            <div className='flex gap-3 justify-center flex-wrap'>
             {project.tags.map((tag, index) => (
               <span key={index} className={`font-semibold ${tag.style}`}>#{tag.name}</span>
             ))}
             </div>
             <div>
-            <button className='bg-primary rounded-full p-1 mr-1'>
+            <button className='bg-primary text-xs rounded-full p-1 mr-1'>
             <a href={project.sourceCodeLink}><img className='w-[25px] h-[25px] inline-block mr-1' src="/src/assets/github.svg" alt="" /><span className='text-navy font-semibold hover:text-purpleNeon'>Code source</span></a>
             </button>
-            <button className='bg-primary rounded-full p-1'>
-            <a href={project.livePreviewLink}><img className='w-[25px] h-[25px] inline-block mr-1' src="/src/assets/preview.svg" alt="" /><span className='text-navy font-semibold hover:text-purpleNeon'>Live preview</span></a>
+            <button className='bg-primary text-sm rounded-full p-1'>
+            <img className='w-[25px] h-[25px] inline-block mr-1' src={project.status.icon} alt="" /><span className='text-navy font-semibold'>{project.status.title}</span>
             </button>
             </div>
           </div>

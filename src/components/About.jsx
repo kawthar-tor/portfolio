@@ -45,6 +45,9 @@ function About() {
               <h4 className='font-medium text-[#9BA4B5] italic'>
                 {experience.companyName}
               </h4>
+              <h4 className='font-bold bg-clip-text text-transparent bg-gradient-to-r from-purpleNeon to-white'>
+                {experience.technologies}
+              </h4>
               <ul>
                 {experience.points.map((descriptionItem, index) => (
                   <li className='list-disc' key={index}>
@@ -78,9 +81,11 @@ function About() {
             contentArrowStyle={{ borderRight: '7px solid #27005D'}}
             iconStyle={{ background: `${education.iconBg}`, color: '#000' }}
             date={education.date}>
-              <h3 className='font-semibold text-3xl'>
-                {education.title}
-              </h3>
+              <a href={education.link} target='_blank'>
+                <h3 className='font-semibold text-3xl'>
+                  {education.title}
+                </h3>
+              </a>
               <h4 className='font-medium text-[#9BA4B5] italic'>
                 {education.description}
               </h4>

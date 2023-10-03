@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Resume from "./Resume";
 import Skills from "./Skills";
 import Terminal from "./terminal";
+import Footer from "./Footer";
 
 export {
     About,
@@ -15,5 +16,6 @@ export {
     Projects,
     Resume,
     Skills,
-    Terminal
+    Terminal,
+    Footer
 }
