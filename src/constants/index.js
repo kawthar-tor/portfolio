@@ -435,7 +435,8 @@ export const professionalTitles = [
   "Full stack web developer",
   "Software developer",
   "Mobile developer",
-  "AI enthusiast",
+  "Artificial intelligence enthusiast",
+  "Data science passionate"
 ];
 
 export const professionalSkillsOverview = {
@@ -495,7 +496,7 @@ export const technologies = [
 export const personalSkillsOverview = {
       userName : "KaoutharKabiri",
       fileName : "personnalSkills",
-      content : "I'm a likely person, optimistic and hard worker."
+      content : "I am a firm believer in the wonderful power of teamwork and its significance in delivering exceptional results. I excel in communication, proficiently conversing in both French and English. My curiosity and perfectionism shine particularly in situations where attention to detail is crucial. I am known for asking questions diligently to ensure that the work aligns precisely with the goals and expectations.<br/><br/>Beyond collaborative efforts, I find great joy in pursuing personal projects that allow me to relax and exercise my creative mind. These projects provide me with a sense of purpose and clarity. In addition to my professional interests, I have a deep appreciation for Turkish culture, which enriches my worldview and offers a unique perspective on life and values."
   };
 
 export const tools = [
@@ -556,23 +557,15 @@ export const tools = [
 export const softSkills = [
   {
     image : "/src/assets/gitex.jpg",
-    description : "0I was born a leader"
+    description : "I participated in Gitex Africa 2023, where I had the opportunity to engage with companies from various nationalities. During the event, I successfully built a robust and diverse professional network."
   },
   {
-    image : "/src/assets/gitex.jpg",
-    description : "1I goodly work in teams"
+    image : "/src/assets/robotics.jpg",
+    description : "I participated in Gitex Africa 2023, where I had the opportunity to engage with companies from various nationalities. During the event, I successfully built a robust and diverse professional network."
   },
   {
-    image : "/src/assets/gitex.jpg",
-    description : "2I love myself"
-  },
-  {
-    image : "/src/assets/gitex.jpg",
-    description : "3I love itachi"
-  },
-  {
-    image : "/src/assets/gitex.jpg",
-    description : "4I love naruto"
+    image : "/src/assets/huawei.png",
+    description : "I participated in Gitex Africa 2023, where I had the opportunity to engage with companies from various nationalities. During the event, I successfully built a robust and diverse professional network."
   },
 ]
 

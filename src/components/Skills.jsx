@@ -48,7 +48,7 @@ function Skills() {
               {softSkills[index].description}
               <img className='w-[28px] h-[28px] self-end' src="/src/assets/rightQuote.svg" alt="" />
             </p>
-            <div className='bg-cover w-full h-full my-5 rounded-lg' style={{backgroundImage : `url(${softSkills[index].image})`}}></div>
+            <div className='bg-cover w-56 mx-auto h-56 my-5 rounded-lg' style={{backgroundImage : `url(${softSkills[index].image})`}}></div>
           </div>
         ))
       }
