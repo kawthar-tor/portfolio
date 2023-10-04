@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Skills from "./Skills";
-import Terminal from "./terminal";
+import Terminal from "./Terminal";
 import Footer from "./Footer";
 
 export {

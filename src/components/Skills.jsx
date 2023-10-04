@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {professionalTitles, tools, professionalSkillsOverview, technologies, personalSkillsOverview, softSkills} from '../constants/index';
-import Terminal from './terminal';
+import Terminal from './Terminal';
 function Skills() {
   const [currentIndexes, setCurrentIndexes] = useState([0,1,2]);
   const nextItem = () => {

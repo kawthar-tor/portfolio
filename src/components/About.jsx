@@ -2,7 +2,7 @@ import React from 'react'
 import {overviewElements, experiences, education} from '../constants/index';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import Terminal from './terminal';
+import Terminal from './Terminal';
 
 function About() {
   return (
