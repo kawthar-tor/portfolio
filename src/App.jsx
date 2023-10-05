@@ -19,7 +19,7 @@ function App() {
         </div>
         <div className='p-9'>
             <Routes>
-              <Route exact path='/' element={<Home/>}/>
+              <Route exact path={`${import.meta.env.BASE_URL}`} element={<Home/>}/>
               <Route path='/home' element={<Home/>}/>
               <Route path='/logo' element={<Home/>}/>
               <Route path='/about' element={<About/>}/>
