@@ -34,7 +34,7 @@ export const navLinks = [
 export const profile = [
   {
       id : "myPicture",
-      link : "/src/assets/picture.jpg"
+      link : "../assets/picture.jpg"
   }
 ];
 
