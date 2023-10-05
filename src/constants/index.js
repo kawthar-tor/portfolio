@@ -1,3 +1,5 @@
+import {picture} from "../assets";
+
 export const fullName = 'Kaouthar Kabiri'
 
 export const navLinks = [
@@ -34,7 +36,7 @@ export const navLinks = [
 export const profile = [
   {
       id : "myPicture",
-      link : 'src/assets/picture.jpg'
+      link : picture
   }
 ];
 
