@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { projects, projectFilters} from '../constants/index';
+import { github } from '../assets';
 function Projects() {
   const [activeFilter, setActiveFilter] = useState('All');
   return (
@@ -26,7 +27,7 @@ function Projects() {
             </div>
             <div>
             <button className='bg-primary text-xs rounded-full p-1 mr-1'>
-            <a href={project.sourceCodeLink}><img className='w-[25px] h-[25px] inline-block mr-1' src="/src/assets/github.svg" alt="" /><span className='text-navy font-semibold hover:text-purpleNeon'>Code source</span></a>
+            <a href={project.sourceCodeLink}><img className='w-[25px] h-[25px] inline-block mr-1' src={github} alt="" /><span className='text-navy font-semibold hover:text-purpleNeon'>Code source</span></a>
             </button>
             <button className='bg-primary text-sm rounded-full p-1'>
             <img className='w-[25px] h-[25px] inline-block mr-1' src={project.status.icon} alt="" /><span className='text-navy font-semibold'>{project.status.title}</span>

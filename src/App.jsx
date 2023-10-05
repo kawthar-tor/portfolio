@@ -20,13 +20,13 @@ function App() {
         <div className='p-9'>
             <Routes>
               <Route exact path={`${import.meta.env.BASE_URL}`} element={<Home/>}/>
-              <Route path='/home' element={<Home/>}/>
-              <Route path='/logo' element={<Home/>}/>
-              <Route path='/about' element={<About/>}/>
-              <Route path='/projects' element={<Projects/>}/>
-              <Route path='/contact' element={<Contact/>}/>
-              <Route path='/skills' element={<Skills/>}/>
-              <Route path='/resume' element={<Resume/>}/>
+              <Route path={`${import.meta.env.BASE_URL}home`} element={<Home/>}/>
+              <Route path={`${import.meta.env.BASE_URL}logo`} element={<Home/>}/>
+              <Route path={`${import.meta.env.BASE_URL}about`} element={<About/>}/>
+              <Route path={`${import.meta.env.BASE_URL}projects`} element={<Projects/>}/>
+              <Route path={`${import.meta.env.BASE_URL}contact`} element={<Contact/>}/>
+              <Route path={`${import.meta.env.BASE_URL}skills`} element={<Skills/>}/>
+              <Route path={`${import.meta.env.BASE_URL}resume`} element={<Resume/>}/>
             </Routes>
         </div>
         <Footer/>

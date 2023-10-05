@@ -12,8 +12,8 @@ function About() {
           Overview
         </h2>
         {
-          overviewElements.map((element) => (
-          <Terminal username={element.userName} fileName={element.fileName} content={element.content}/>
+          overviewElements.map((element, index) => (
+          <Terminal key={index} username={element.userName} fileName={element.fileName} content={element.content}/>
           ))
         }
       </div>

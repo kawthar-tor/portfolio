@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { redCircle, yellowCircle, greenCircle, folder } from '../assets';
 function Terminal({username, fileName, content}) {
     const SpanWrapper = ({item, style}) =>{
         return (
@@ -11,10 +11,10 @@ function Terminal({username, fileName, content}) {
   return (
     <div className='text-white animate-fade-right animate-duration-700 animate-delay-700 animate-ease-in overflow-hidden md:w-2/4 rounded-lg bg-terminalGray mx-auto'>
     <div className='mb-4 bg-terminalTop flex py-2 items-center'>
-      <img className='w-icon flex h-icon ' src="/src/assets/redCircle.svg" alt="" />
-      <img className='w-icon flex h-icon' src="/src/assets/yellowCircle.svg" alt="" />
-      <img className='w-icon flex h-icon' src="/src/assets/greenCircle.svg" alt="" />
-      <img className='w-icon h-icon hover:animate-wiggle ml-10' src="/src/assets/folder.svg" alt="" />
+      <img className='w-icon flex h-icon ' src={redCircle} alt="" />
+      <img className='w-icon flex h-icon' src={yellowCircle} alt="" />
+      <img className='w-icon flex h-icon' src={greenCircle} alt="" />
+      <img className='w-icon h-icon hover:animate-wiggle ml-10' src={folder} alt="" />
       <span className='text-navy'>/{username}-bash</span>
     </div>
     <div className='m-3'>

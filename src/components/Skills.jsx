@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {professionalTitles, tools, professionalSkillsOverview, technologies, personalSkillsOverview, softSkills} from '../constants/index';
 import Terminal from './Terminal';
+import { leftQuote, rightQuote } from '../assets';
 function Skills() {
   const [currentIndexes, setCurrentIndexes] = useState([0,1,2]);
   const nextItem = () => {
@@ -44,9 +45,9 @@ function Skills() {
         currentIndexes.map(index => (
           <div key={index} className='w-1/3 h-56 md:h-96'>
             <p className='shadow-skillCard flex flex-col gap-y-3 px-2 items-center font-semibold italic'>
-              <img className='w-[28px] h-[28px] self-start' src="/src/assets/leftQuote.svg" alt="" />
+              <img className='w-[28px] h-[28px] self-start' src={leftQuote} alt="" />
               {softSkills[index].description}
-              <img className='w-[28px] h-[28px] self-end' src="/src/assets/rightQuote.svg" alt="" />
+            <img className='w-[28px] h-[28px] self-end' src={rightQuote} alt="" />
             </p>
             <div className='bg-cover w-56 mx-auto h-56 my-5 rounded-lg' style={{backgroundImage : `url(${softSkills[index].image})`}}></div>
           </div>

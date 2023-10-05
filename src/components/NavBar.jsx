@@ -26,7 +26,7 @@ function NavBar() {
               key={nav.id}
               onClick={()=>setActiveLink(nav.id)}
               >
-                <Link to={`/${nav.id}`}>{nav.title}</Link>
+                <Link to={`${import.meta.env.BASE_URL}${nav.id}`}>{nav.title}</Link>
               </li>
             ))
           }</ul>
@@ -44,7 +44,7 @@ function NavBar() {
 
             }}
             >
-              <Link to={`/${nav.id}`}>{nav.title}</Link>
+              <Link to={`${import.meta.env.BASE_URL}${nav.id}`}>{nav.title}</Link>
             </li>
           ))
         }

@@ -1,10 +1,72 @@
-import {picture} from "../assets";
+import {
+  all,
+  android,
+  blender,
+  close,
+  closeTerminal,
+  completed,
+  cosmeticsProject,
+  cpp,
+  css,
+  cv,
+  download,
+  ebankingProjet,
+  eclipse,
+  ensaLogo,
+  figma,
+  git,
+  gitex,
+  github,
+  gps,
+  huawei,
+  immobilierProject,
+  intellij,
+  java,
+  javascript,
+  kotlin,
+  leftQuote,
+  linkedin,
+  linux,
+  logAnalyzerProject,
+  mail,
+  menu,
+  nature,
+  nodeJs,
+  notFinished,
+  notion,
+  npm,
+  ofLogo,
+  openCV,
+  oracle,
+  other,
+  phone,
+  php,
+  picture,
+  portfolioProject,
+  postman,
+  preview ,
+  python,
+  R,
+  react,
+  rightQuote,
+  robotics,
+  school,
+  send,
+  spring,
+  sql,
+  unoProject,
+  vsCode,
+  webpickLogo,
+  workbench,
+  xampp,
+  CVpdf,
+  } from '../assets';
 
 export const fullName = 'Kaouthar Kabiri'
 
 export const navLinks = [
   {
-      id : "home",
+      id : 'home',
       title : "Home"
   },
   {
@@ -65,23 +127,23 @@ export const introductionItems = [
 
 export const introductionParagraphs = [
   {
-      icon : "/src/assets/gps.svg",
+      icon : gps,
       title : "Based in Morocco"
   },
   {
-      icon : "/src/assets/school.svg",
+      icon : school,
       title : "Studying at the National School Of Applied Sciences Of Marrakech"
   },
   {
-      icon : "/src/assets/nature.svg",
+      icon : nature,
       title : "Nature lover"
   },
   {
-      icon : "/src/assets/phone.svg",
+      icon : phone,
       title : "+212-627002598"
   },
   {
-      icon : "/src/assets/mail.svg",
+      icon : mail,
       title : "kaw.kabiri@gmail.com"
   }
 ];
@@ -89,17 +151,17 @@ export const introductionParagraphs = [
 export const platformsLinks = [
   {
       name : "LinkedIn",
-      icon : "/src/assets/linkedin.svg",
+      icon : linkedin,
       link : "https://www.linkedin.com/in/kaouthar-k-84a709216/"
   },
   {
       name : "Resume",
-      icon : "/src/assets/cv.svg",
-      link : "/src/assets/CV_PFA.pdf"
+      icon : cv,
+      link : {CVpdf}
   },
   {
       name : "Github",
-      icon : "/src/assets/github.svg",
+      icon : github,
       link : "https://github.com/kawthar-tor"
   },
 ];
@@ -127,7 +189,7 @@ export const experiences = [
   {
       title: "Full stack developer",
       companyName: "Webpick - EBF Marrakech",
-      icon: "/src/assets/webPickLogo.png",
+      icon: webpickLogo,
       iconBg: "#fff",
       technologies : "Php - Sql - WordPress - Sass - jQuery - Javascript - Apis",
       date: "15 July 2022 - 31 August 2022",
@@ -142,7 +204,7 @@ export const experiences = [
   {
       title: "Web developer",
       companyName: "OpenFlyers - France",
-      icon: "/src/assets/ofLogo.png",
+      icon: ofLogo,
       technologies : "React.js - JavaScript - Apis - Node.js - Php - Express.js - Http/Tcp/Ip protocols - Sequilize",
       iconBg: "#fff",
       date: "26 July 2023 - 28 August 2023",
@@ -161,7 +223,7 @@ export const education = [
       title: "National School Of Applied Science",
       link : "https://www.ensa.ac.ma/",
       description: "Computer science engineering degree - bac+5",
-      icon: "/src/assets/ensaLogo.png",
+      icon: ensaLogo,
       iconBg: "#fff",
       date: "September 2019 - September 2024",
       modules: [
@@ -193,35 +255,35 @@ export const education = [
 
 export const projectFilters = [
   {
-      icon : "/src/assets/all.svg",
+      icon : all,
       name : "All"
   },
   {
-      icon : "/src/assets/python.svg",
+      icon : python,
       name : "Python"
   },
   {
-      icon : "/src/assets/react.svg",
+      icon : react,
       name : "React"
   },
   {
-    icon : "/src/assets/php.svg",
+    icon : php,
     name : "Php"
   },
   {
-    icon : "/src/assets/javascript.svg",
+    icon : javascript,
     name : "JavaScript"
   },
   {
-    icon : "/src/assets/spring.svg",
+    icon : spring,
     name : "JEE"
   },
   {
-    icon : "/src/assets/java.svg",
+    icon : java,
     name : "Java"
   },
   {
-    icon : "/src/assets/android.svg",
+    icon : android,
     name : "Android"
   },
 ];
@@ -233,7 +295,7 @@ export const projects = [
       We developed a desktop Python application for the immensely popular game, <b>UNO</b>. The user interfaces were created using pygame, and the game supports multiplayer functionality. We implemented various difficulty levels and included the option to play against a computer opponent. We adopted an object-oriented approach to streamline team collaboration.
       `,
       status : {
-        icon : "/src/assets/completed.svg",
+        icon : completed,
         title : "Completed"
       },
       tags: [
@@ -250,7 +312,7 @@ export const projects = [
           style: "text-[#efd81d]",
         }
       ],
-      image: '/src/assets/unoProject.jpeg',
+      image: unoProject,
       sourceCodeLink: "https://github.com/",
     },
     {
@@ -259,7 +321,7 @@ export const projects = [
       This is a personal project aimed at selling cosmetics products for women, which can be administered and potentially customized by brands through the integration of WordPress. I aimed for speed during implementation, which is evident in the choice of technologies.
       `,
       status : {
-        icon : "/src/assets/completed.svg",
+        icon : completed,
         title : "Completed"
       },
       tags: [
@@ -284,7 +346,7 @@ export const projects = [
           style: "text-[#DD8A00]",
         }
       ],
-      image: '/src/assets/cosmeticsProject.png',
+      image: cosmeticsProject,
       sourceCodeLink: "https://github.com/kawthar-tor/cosmetics",
     },
     {
@@ -293,7 +355,7 @@ export const projects = [
       This is a desktop application developed in Java, using the JavaFX package to integrate interface components. This application allows real-time visualization of the results of data analysis recorded in the logs of a web server.
       `,
       status : {
-        icon : "/src/assets/completed.svg",
+        icon : completed,
         title : "Completed"
       },
       tags: [
@@ -318,7 +380,7 @@ export const projects = [
           style: "text-[#F0C2D5]",
         }
       ],
-      image: '/src/assets/logAnalyzerProject.jpg',
+      image: logAnalyzerProject,
       sourceCodeLink: "https://github.com/kawthar-tor/log-analyzer",
     },
     {
@@ -327,7 +389,7 @@ export const projects = [
       This web application has been meticulously crafted using Java EE (Enterprise Edition) and Angular. It offers a comprehensive range of online banking services with a focus on personalization for various user roles. The application intelligently distinguishes between different user roles, tailoring the services and features to meet the unique needs and permissions of each role.<br/>
       `,
       status : {
-        icon : "/src/assets/completed.svg",
+        icon : completed,
         title : "Completed"
       },
       tags: [
@@ -364,7 +426,7 @@ export const projects = [
           style: "text-[#EE861E]",
         },
       ],
-      image: '/src/assets/ebankingProject.png',
+      image: ebankingProjet,
       sourceCodeLink: "hhttps://github.com/kawthar-tor/Ebanking",
     },
     {
@@ -373,7 +435,7 @@ export const projects = [
       This is an mobile application for real estate that allows users to browse available real estate listings based on the criteria they have entered. They will be notified of each listing that matches their preferences, which they can modify at any time.
       `,
       status : {
-        icon : "/src/assets/completed.svg",
+        icon : completed,
         title : "Completed"
       },
       tags: [
@@ -394,7 +456,7 @@ export const projects = [
           style: "text-[#A4C639]",
         },
       ],
-      image: '/src/assets/immobilierProject.png',
+      image: immobilierProject,
       sourceCodeLink: "https://github.com/kawthar-tor/Real-Estate-Mobile-App",
     },
     {
@@ -405,7 +467,7 @@ export const projects = [
       Users will easily tailor the content, layout, and design to suit their unique preferences and needs.
       This portfolio serves as a showcase of my skills and expertise, highlighting my ability to create dynamic and adaptable web solutions.`,
       status : {
-        icon : "/src/assets/notFinished.svg",
+        icon : notFinished,
         title : "In development"
       },
       tags: [
@@ -426,7 +488,7 @@ export const projects = [
           style: "text-[#000]",
         },
       ],
-      image: '/src/assets/portfolioProject.png',
+      image: portfolioProject,
       sourceCodeLink: "https://github.com/kawthar-tor/Real-Estate-Mobile-App",
     },
 ];
@@ -450,47 +512,47 @@ export const professionalSkillsOverview = {
 export const technologies = [
   {
       name : "Python",
-      icon : "/src/assets/python.svg",
+      icon : python,
       frameworks : ["Tkinter"]
   },
   {
     name : "JavaScript",
-    icon : "/src/assets/javascript.svg",
+    icon : javascript,
     frameworks : ["React.js", "Node.js", "Express.js", "Angular", "jQuery"]
   },
   {
     name : "Java",
-    icon : "/src/assets/java.svg",
+    icon : java,
     frameworks : ["Spring", "Hibernate", "JSF"]
   },
   {
     name : "C/C++",
-    icon : "/src/assets/cpp.svg",
+    icon : cpp,
     frameworks : []
   },
   {
     name : "Php",
-    icon : "/src/assets/php.svg",
+    icon : php,
     frameworks : ["Symphony"]
   },
   {
     name : "R",
-    icon : "/src/assets/R.svg",
+    icon : R,
     frameworks : []
   },
   {
     name : "Css",
-    icon : "/src/assets/css.svg",
+    icon : css,
     frameworks : ["Tailwind Css"]
   },
   {
     name : "Pl/Sql",
-    icon : "/src/assets/sql.svg",
+    icon : sql,
     frameworks : []
   },
   {
     name : "Kotlin",
-    icon : "/src/assets/kotlin.svg",
+    icon : kotlin,
     frameworks : []
   },
 ];
@@ -504,74 +566,74 @@ export const personalSkillsOverview = {
 export const tools = [
   {
     name : "Vs code",
-    icon : "/src/assets/vsCode.svg"
+    icon : vsCode
   },
   {
     name : "Intellij",
-    icon : "/src/assets/intellij.svg"
+    icon : intellij
   },
   {
     name : "Figma",
-    icon : "/src/assets/figma.svg"
+    icon : figma
   },
   {
     name : "Notion",
-    icon : "/src/assets/notion.svg"
+    icon : notion
   },
   {
-    name : "Notion",
-    icon : "/src/assets/blender.svg"
+    name : "Blender",
+    icon : blender
   },
   {
-    name : "Notion",
-    icon : "/src/assets/eclipse.svg"
+    name : "Eclipse",
+    icon : eclipse
   },
   {
-    name : "Notion",
-    icon : "/src/assets/git.svg"
+    name : "Git",
+    icon : git
   },
   {
-    name : "Notion",
-    icon : "/src/assets/npm.svg"
+    name : "Npm",
+    icon : npm
   },
   {
-    name : "Notion",
-    icon : "/src/assets/openCV.svg"
+    name : "OpenCV",
+    icon : openCV
   },
   {
-    name : "Notion",
-    icon : "/src/assets/oracle.svg"
+    name : "Oracle",
+    icon : oracle
   },
   {
-    name : "Notion",
-    icon : "/src/assets/workbench.svg"
+    name : "Workbench",
+    icon : workbench
   },
   {
-    name : "Notion",
-    icon : "/src/assets/postman.svg"
+    name : "Postman",
+    icon : postman
   },
   {
-    name : "Notion",
-    icon : "/src/assets/xampp.svg"
+    name : "Xampp",
+    icon : xampp
   },
 ]
 
 export const softSkills = [
   {
-    image : "/src/assets/gitex.jpg",
+    image : gitex,
     description : "I participated in Gitex Africa 2023, where I had the opportunity to engage with companies from various nationalities. During the event, I successfully built a robust and diverse professional network."
   },
   {
-    image : "/src/assets/robotics.jpg",
+    image : robotics,
     description : "I participated in Gitex Africa 2023, where I had the opportunity to engage with companies from various nationalities. During the event, I successfully built a robust and diverse professional network."
   },
   {
-    image : "/src/assets/huawei.png",
+    image : huawei,
     description : "I participated in Gitex Africa 2023, where I had the opportunity to engage with companies from various nationalities. During the event, I successfully built a robust and diverse professional network."
   },
 ]
 
-export const resumePdf = '/src/assets/CV_PFA.pdf';
+export const resumePdf = CVpdf;
 
 export const emailJsConf = [
   {
