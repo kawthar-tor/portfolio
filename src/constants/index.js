@@ -60,6 +60,8 @@ import {
   workbench,
   xampp,
   CVpdf,
+  jira,
+  analytics,
   } from '../assets';
 
 export const fullName = 'Kaouthar Kabiri'
@@ -616,6 +618,14 @@ export const tools = [
     name : "Xampp",
     icon : xampp
   },
+  {
+    name : "Jira",
+    icon : jira
+  },
+  {
+    name : "Google Analytics",
+    icon : analytics
+  }
 ]
 
 export const softSkills = [

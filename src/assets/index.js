@@ -1,5 +1,6 @@
 import all from './all.svg';
 import android from './android.svg';
+import analytics from './analytics.svg';
 import blender from './blender.svg';
 import close from './close.svg';
 import closeTerminal from './closeTerminal.svg';
@@ -24,6 +25,7 @@ import immobilierProject from './immobilierProject.png';
 import intellij from './intellij.svg';
 import java from './java.svg';
 import javascript from './javascript.svg';
+import jira from './jira.svg';
 import kotlin from './kotlin.svg';
 import leftQuote from './leftQuote.svg';
 import linkedin from './linkedin.svg';
@@ -66,6 +68,7 @@ import CVpdf from './Kaouthar-Kabiri-CV.pdf';
 export {
     all,
     android,
+    analytics,
     blender,
     close,
     closeTerminal,
@@ -91,6 +94,7 @@ export {
     intellij,
     java,
     javascript,
+    jira,
     kotlin,
     leftQuote,
     linkedin,
