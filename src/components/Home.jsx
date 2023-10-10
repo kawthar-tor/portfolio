@@ -41,7 +41,7 @@ function Home() {
         </ul>
         <div className='flex self-center'>
         {
-          platformsLinks.map((platform, index) => (
+          platformsLinks.map((platform) => (
             <a className='hover:animate-wiggle animate-once' key={platform.name} target='_blank' href={platform.link}>
               <img className='w-icon h-icon' src={platform.icon} alt={platform.name}/>
             </a>

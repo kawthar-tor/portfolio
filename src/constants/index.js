@@ -157,7 +157,7 @@ export const platformsLinks = [
   {
       name : "Resume",
       icon : cv,
-      link : {CVpdf}
+      link : CVpdf
   },
   {
       name : "Github",
