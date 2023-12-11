@@ -33,6 +33,7 @@ import linux from './linux.svg';
 import logAnalyzerProject from './logAnalyzerProject.jpg';
 import mail from './mail.svg';
 import menu from './menu.svg';
+import mobility from './mobility.svg';
 import nature from './nature.svg';
 import nodeJs from './nodeJs.svg';
 import notFinished from './notFinished.svg';
@@ -48,6 +49,7 @@ import picture from './picture.jpg';
 import portfolioProject from './portfolioProject.png';
 import postman from './postman.svg';
 import preview from './preview.svg';
+import professionalStatus from './professionalStatus.svg';
 import python from './python.svg';
 import R from './R.svg';
 import react from './react.svg';
@@ -102,6 +104,7 @@ export {
     logAnalyzerProject,
     mail,
     menu,
+    mobility,
     nature,
     nodeJs,
     notFinished,
@@ -117,6 +120,7 @@ export {
     portfolioProject,
     postman,
     preview ,
+    professionalStatus,
     python,
     R,
     react,

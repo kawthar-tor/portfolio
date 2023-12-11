@@ -30,6 +30,7 @@ import {
   logAnalyzerProject,
   mail,
   menu,
+  mobility,
   nature,
   nodeJs,
   notFinished,
@@ -45,6 +46,7 @@ import {
   portfolioProject,
   postman,
   preview ,
+  professionalStatus,
   python,
   R,
   react,
@@ -134,15 +136,19 @@ export const introductionParagraphs = [
   },
   {
       icon : school,
-      title : "Studying at the National School Of Applied Sciences Of Marrakech"
+      title : "Studying at the National School Of Applied Sciences Of Marrakech (ENSA-Marrakech)"
   },
   {
-      icon : nature,
-      title : "Nature lover"
+      icon : mobility,
+      title : "Mobility worldwide"
+  },
+  {
+    icon : professionalStatus,
+    title : "Open to work (Looking for an internship)"
   },
   {
       icon : phone,
-      title : "+212-627002598"
+      title : "+212627002598"
   },
   {
       icon : mail,
