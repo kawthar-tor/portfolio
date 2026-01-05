@@ -1,9 +1,12 @@
-# Workflow pour déployer du contenu statique sur GitHub Pages
-name: Deploy static content to Pages
+# Déploiement de contenu statique vers GitHub Pages
+# Branche source : ai-portfolio
+
+name: Deploy static content to GitHub Pages
 
 on:
   push:
-    branches: ['main']
+    branches:
+      - ai-portfolio
   workflow_dispatch:
 
 permissions:
@@ -12,25 +15,28 @@ permissions:
   id-token: write
 
 concurrency:
-  group: 'pages'
+  group: pages
   cancel-in-progress: true
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
 
-      - name: Set up Node.js
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
@@ -39,13 +45,13 @@ jobs:
         run: npm run build
 
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: ./dist
 
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: deploy
         uses: actions/deploy-pages@v4
