@@ -109,23 +109,19 @@ export const profile = [
 export const introductionItems = [
   {
       id : "item1",
-      title : "Computer science engineering student"
+      title : "Computer Science Engineer"
   },
   {
       id : "item2",
-      title : "Full stack developer"
+      title : "PHD Candidate in AI for HealthCare"
   },
   {
       id : "item3",
-      title : "Open source contributor"
+      title : "AI & Machine Learning Researcher (Python)"
   },
   {
     id : "item4",
-    title : "Python developer"
-  },
-  {
-    id : "item5",
-    title : "AI passionate"
+    title : "Strategic Thinker | Chess Enthusiast"
   }
 ];
 
@@ -136,15 +132,15 @@ export const introductionParagraphs = [
   },
   {
       icon : school,
-      title : "Studying at the National School Of Applied Sciences Of Marrakech (ENSA-Marrakech)"
+      title : "Computer Science Engineer — ENSA Marrakech"
   },
   {
       icon : mobility,
-      title : "Mobility worldwide"
+      title : "Mobility WorldWide"
   },
   {
     icon : professionalStatus,
-    title : "Open to work (Looking for an internship)"
+    title : "PhD Candidate in Artificial Intelligence"
   },
   {
       icon : phone,
@@ -181,20 +177,37 @@ export const overviewElements = [
       userName : "KaoutharKabiri",
       fileName : "aboutKaouthar",
       content : `
-      I'm <i>kaouthar kabiri</i> , I'm 22 years old, a final year computer science engineering student at the National School Of Applied Sciences Of Marrakech an esteemed institution associated with Cadi Ayyad University.<br/>
-      I am proud to be a part of Cadi Ayyad University, which is recognized as one of the best global universities in Africa.<br/>
-      Throughout my academic journey, I have had the privilege of gaining a solid foundation in computer science principles and a wide range of skills in various technologies, particularly in web and data science.<br/>
-      My expertise includes working with frameworks such as React, Node.js, and Express.js, allowing me to develop efficient, scalable, and user-friendly solutions.<br/>
-      <br/>
-      I am passionate about bringing innovative ideas to life through technology.<br/>
-      Your company's reputation for fostering creativity and pushing the boundaries aligns perfectly with my aspirations.<br/>
-      I believe that working together, we can create solutions that not only meet the needs of your organization but also make a meaningful impact on the world.<br/>
-      `
+I am <i>Kaouthar Kabiri</i>, a 24-year-old PhD Candidate in Artificial Intelligence for Healthcare and Clinical Decision Support.<br/><br/>
+
+Throughout my academic journey, I have built a strong foundation in computer science, complemented by hands-on experience in both web technologies and data science.<br/>
+I have worked with modern frameworks such as React, Node.js, and Express.js to design and develop efficient, scalable, and user-centered applications.<br/><br/>
+
+My research interests lie at the intersection of artificial intelligence, healthcare, and decision support systems, with a strong focus on building reliable and impactful AI-driven solutions.<br/>
+I am deeply motivated by the challenge of transforming innovative ideas into technologies that can support real-world clinical and societal needs.<br/><br/>
+
+I am particularly drawn to environments that value creativity, rigor, and innovation.<br/>
+I believe that through collaboration, we can develop solutions that not only address organizational objectives but also contribute meaningfully to improving healthcare outcomes and advancing responsible AI.
+`
   }
 ];
 
 export const experiences = [
-  {
+    {
+    title: "Software Engineer",
+      companyName: "Capgemini - Rabat",
+      icon: capLogo,
+      iconBg: "#fff",
+      technologies : "Java - SQL - Spring - PostgreSql - Agile - Linux - Spring Batch - PL/PgSQL - Apache Camel",
+      date: "01 March 2024 - present",
+      points: [
+        "Contributed to a large-scale delivery project for a telecommunications client as part of a cross-functional team.",
+        "Analyzed and documented the existing system architecture to support system evolution and performance optimization.",
+        "Investigated and resolved application-level issues through systematic log analysis, bug reproduction, and root cause analysis.",
+        "Implemented corrective changes in a JEE / Spring-based application while ensuring code quality, compliance with development standards, and comprehensive unit test coverage.",
+        "Strengthened leadership and autonomy by independently managing critical incidents, proposing solutions, and collaborating effectively within cross-functional teams."
+      ]
+    },
+    {
       title: "Full stack developer",
       companyName: "Webpick - EBF Marrakech",
       icon: webpickLogo,
@@ -230,31 +243,30 @@ export const education = [
   {
       title: "National School Of Applied Science",
       link : "https://www.ensa.ac.ma/",
-      description: "Computer science engineering degree - bac+5",
+      description: "Computer Science Engineering Degree (MSc-equivalent), Grade: 14/20 (≈ GPA 3.3/4.0)",
       icon: ensaLogo,
       iconBg: "#fff",
       date: "September 2019 - September 2024",
       modules: [
-          "Telecommunication and informatics",
-          "Object-oriented programming C/C++",
-          "Digital electronics",
-          "Scientific Computing",
-          "Databases : Mysql and Oracle as relational Database Management Systems",
-          "Algorithm analysis and complexity",
-          "Operating systems and Unix",
-          "Web 3.0",
-          "Python",
-          "Management and business economics",
-          "Java",
-          "Shell programming and Unix administration",
-          "Image processing and 3D",
-          "Deep learning and computer vision",
-          "JEE",
-          "Big data",
-          "Artificial intelligence",
-          "Business intelligence",
-          "NoSql"
-
+    "Telecommunications and Computer Networks",
+    "Object-Oriented Programming (C/C++)",
+    "Digital Electronics",
+    "Scientific and Numerical Computing",
+    "Relational Databases (MySQL, Oracle)",
+    "Algorithm Design, Analysis, and Complexity",
+    "Operating Systems and UNIX",
+    "Web Technologies and Web 3.0",
+    "Python Programming",
+    "Management and Business Economics",
+    "Java Programming",
+    "Shell Scripting and UNIX Administration",
+    "Image Processing and 3D Graphics",
+    "Deep Learning and Computer Vision",
+    "Enterprise Java (JEE)",
+    "Big Data Technologies",
+    "Artificial Intelligence",
+    "Business Intelligence Systems",
+    "NoSQL Databases"
       ]
     },
 ];
@@ -297,6 +309,125 @@ export const projectFilters = [
 ];
 
 export const projects = [
+    {
+  title: "Early Warning System for ICU Patient Deterioration",
+  description: `
+  Implemented a time-series machine learning system to predict patient deterioration in intensive care units.
+  Vital signs and physiological signals were analyzed to anticipate critical events and support timely clinical intervention.
+  The system emphasizes reliability, temporal modeling, and decision support integration.
+  `,
+  status: { icon: completed, title: "Completed" },
+  tags: [
+    { name: "Time Series Analysis", style: "text-[#16a085]" },
+    { name: "Machine Learning", style: "text-[#ff6f00]" },
+    { name: "Healthcare AI", style: "text-[#2ecc71]" },
+    { name: "Decision Support", style: "text-[#3498db]" }
+  ],
+  image: icuPrediction,
+  sourceCodeLink: "https://github.com/"
+},
+    {
+  title: "Explainable AI for Radiology Report Classification",
+  description: `
+  Developed an NLP-based system to automatically classify radiology reports and highlight clinically relevant findings.
+  Transformer-based models were used to extract insights from unstructured medical text.
+  Explainability techniques were applied to visualize influential terms and improve clinician trust.
+  `,
+  status: { icon: completed, title: "Completed" },
+  tags: [
+    { name: "NLP", style: "text-[#9b59b6]" },
+    { name: "Transformers", style: "text-[#e67e22]" },
+    { name: "Explainable AI", style: "text-[#8e44ad]" },
+    { name: "Radiology", style: "text-[#e74c3c]" }
+  ],
+  image: radiologyNLP,
+  sourceCodeLink: "https://github.com/"
+},
+    {
+  title: "Cancer Risk Prediction Using Multi-Modal Clinical Data",
+  description: `
+  Built a predictive AI model to estimate cancer risk by combining demographic, clinical, and laboratory data.
+  Multiple machine learning models were evaluated and compared, including Random Forest, XGBoost, and Neural Networks.
+  The project highlights model robustness, bias analysis, and clinical relevance of predictions.
+  `,
+  status: { icon: completed, title: "Completed" },
+  tags: [
+    { name: "Python", style: "text-[#316897]" },
+    { name: "Data Science", style: "text-[#1abc9c]" },
+    { name: "Predictive Modeling", style: "text-[#f39c12]" },
+    { name: "Healthcare Analytics", style: "text-[#2ecc71]" }
+  ],
+  image: cancerPrediction,
+  sourceCodeLink: "https://github.com/"
+},
+    {
+  title: "Deep Learning for Brain Tumor Segmentation in MRI",
+  description: `
+  Designed a deep learning pipeline for automatic brain tumor segmentation from MRI scans using U-Net and CNN architectures.
+  The project focuses on accurate tumor boundary detection to support radiologists in diagnosis and treatment planning.
+  Performance was evaluated using Dice score and IoU metrics on publicly available medical imaging datasets.
+  `,
+  status: { icon: completed, title: "Completed" },
+  tags: [
+    { name: "Python", style: "text-[#316897]" },
+    { name: "Deep Learning", style: "text-[#ff6f00]" },
+    { name: "Medical Imaging", style: "text-[#e74c3c]" },
+    { name: "CNN / U-Net", style: "text-[#3498db]" }
+  ],
+  image: brainTumorMRI,
+  sourceCodeLink: "https://github.com/"
+},
+    {
+  title: "AI-Based Clinical Decision Support for Neurological Disorders",
+  description: `
+  Developed an AI-driven clinical decision support system to assist clinicians in the early detection of neurological disorders such as Parkinson’s and Alzheimer’s disease.
+  The system integrates patient clinical data, cognitive scores, and biomarkers to generate risk predictions and decision recommendations.
+  Emphasis was placed on model interpretability using SHAP and LIME to ensure transparency and clinical trust.
+  `,
+  status: { icon: completed, title: "Completed" },
+  tags: [
+    { name: "Python", style: "text-[#316897]" },
+    { name: "Machine Learning", style: "text-[#ff6f00]" },
+    { name: "Explainable AI (XAI)", style: "text-[#8e44ad]" },
+    { name: "Clinical Decision Support", style: "text-[#2ecc71]" }
+  ],
+  image: clinicalDecisionSupport,
+  sourceCodeLink: "https://github.com/"
+},
+{
+  title: "Exploratory Data Analysis of Neurological Health Data",
+  description: `
+  Conducted an exploratory data analysis (EDA) on a neurological health dataset to understand patient characteristics, symptom distributions, and potential risk factors.
+  The project focused on data cleaning, visualization, and statistical analysis to uncover meaningful patterns that could support future predictive modeling.
+  This work served as an introduction to healthcare data analysis and research-oriented thinking.
+  `,
+  status: { icon: completed, title: "Completed" },
+  tags: [
+    { name: "Python", style: "text-[#316897]" },
+    { name: "Pandas", style: "text-[#150458]" },
+    { name: "Data Visualization", style: "text-[#e74c3c]" },
+    { name: "Healthcare Data", style: "text-[#2ecc71]" }
+  ],
+  image: neuroEDA,
+  sourceCodeLink: "https://github.com/"
+},
+{
+  title: "Machine Learning Classification for Early Disease Risk Assessment",
+  description: `
+  Implemented basic machine learning classification models to predict early disease risk based on patient clinical features.
+  Models such as Logistic Regression and Decision Trees were trained and evaluated to understand model behavior, performance metrics, and limitations.
+  The project emphasizes learning model evaluation, feature importance, and ethical considerations in healthcare AI.
+  `,
+  status: { icon: completed, title: "Completed" },
+  tags: [
+    { name: "Python", style: "text-[#316897]" },
+    { name: "Scikit-learn", style: "text-[#f7931e]" },
+    { name: "Machine Learning Basics", style: "text-[#ff6f00]" },
+    { name: "Healthcare Analytics", style: "text-[#2ecc71]" }
+  ],
+  image: diseaseRiskML,
+  sourceCodeLink: "https://github.com/"
+},
   {
       title: "Interactive Card Game : UNO",
       description: `
@@ -504,17 +635,16 @@ export const projects = [
 // Skills
 
 export const professionalTitles = [
-  "Full stack web developer",
-  "Software developer",
-  "Mobile developer",
-  "Artificial intelligence enthusiast",
-  "Data science passionate"
+  "PhD Candidate in AI for Healthcare",
+  "Software Engineer",
+  "Applied Data Science",
+  "Researcher"
 ];
 
 export const professionalSkillsOverview = {
       userName : "KaoutharKabiri",
       fileName : "professionnalSkills",
-      content : "I'm a naturally curious individual who has a deep passion for exploring and mastering various programming languages. This fascination drives me to constantly seek out new languages, each with its unique set of features and capabilities. My ultimate goal is to leverage this knowledge to craft stunning and innovative applications that can make a meaningful impact."
+    content: "I am a PhD candidate in Artificial Intelligence for Healthcare, driven by curiosity and a strong interest in understanding how computational methods can be translated into impactful, real-world solutions. My background in computer science and software engineering enables me to design robust systems, with a particular focus on AI-driven decision support and responsible innovation in healthcare."
 };
 
 export const technologies = [
