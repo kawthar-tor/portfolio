@@ -30,7 +30,8 @@ import kotlin from './kotlin.svg';
 import leftQuote from './leftQuote.svg';
 import linkedin from './linkedin.svg';
 import linux from './linux.svg';
-import logAnalyzerProject from './logAnalyzerProject.jpg';
+import logAnalyzerProject from './logAnalyzerProject.png';
+import capLogo from './capLogo.png';
 import mail from './mail.svg';
 import menu from './menu.svg';
 import mobility from './mobility.svg';
@@ -45,7 +46,7 @@ import oracle from './oracle.svg';
 import other from './other.svg';
 import phone from './phone.svg';
 import php from './php.svg';
-import picture from './picture.jpg';
+import picture from './myPicture.png';
 import portfolioProject from './portfolioProject.png';
 import postman from './postman.svg';
 import preview from './preview.svg';
@@ -60,7 +61,7 @@ import school from './school.svg';
 import send from './send.svg';
 import spring from './spring.svg';
 import sql from './sql.svg';
-import unoProject from './unoProject.jpeg';
+import unoProject from './unoProject.png';
 import vsCode from './vsCode.svg';
 import webpickLogo from './webPickLogo.png';
 import workbench from './workbench.svg';
@@ -81,6 +82,7 @@ export {
     cv,
     CVpdf,
     download,
+    capLogo,
     ebankingProjet,
     eclipse,
     ensaLogo,

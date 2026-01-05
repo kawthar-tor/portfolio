@@ -309,7 +309,7 @@ export const projectFilters = [
 ];
 
 export const projects = [
-    {
+    /**{
   title: "Early Warning System for ICU Patient Deterioration",
   description: `
   Implemented a time-series machine learning system to predict patient deterioration in intensive care units.
@@ -427,8 +427,8 @@ export const projects = [
   ],
   image: diseaseRiskML,
   sourceCodeLink: "https://github.com/"
-},
-  {
+},**/
+    {
       title: "Interactive Card Game : UNO",
       description: `
       We developed a desktop Python application for the immensely popular game, <b>UNO</b>. The user interfaces were created using pygame, and the game supports multiplayer functionality. We implemented various difficulty levels and included the option to play against a computer opponent. We adopted an object-oriented approach to streamline team collaboration.
