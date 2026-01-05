@@ -64,6 +64,7 @@ import {
   CVpdf,
   jira,
   analytics,
+  capLogo
   } from '../assets';
 
 export const fullName = 'Kaouthar Kabiri'

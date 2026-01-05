@@ -31,7 +31,6 @@ import leftQuote from './leftQuote.svg';
 import linkedin from './linkedin.svg';
 import linux from './linux.svg';
 import logAnalyzerProject from './logAnalyzerProject.png';
-// Updated 
 import capLogo from './capLogo.png';
 import mail from './mail.svg';
 import menu from './menu.svg';
