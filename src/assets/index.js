@@ -68,6 +68,11 @@ import workbench from './workbench.svg';
 import xampp from './xampp.svg';
 import yellowCircle from './yellowCircle.svg';
 import CVpdf from './Kaouthar-Kabiri-CV.pdf';
+import mri2Mesh from './Mri2Mesh.png';
+import boneFratureDetector from './boneFratureDetector.png';
+import pneumoniaDetector from './pneumoniaDetector.png';
+import brainTumorDetection from './brainTumorDetection.png';
+import liverTumorSeg from './liverTumorSeg.png';
 export {
     all,
     android,
@@ -139,4 +144,9 @@ export {
     workbench,
     xampp,
     yellowCircle,
+    mri2Mesh,
+    boneFratureDetector,
+    pneumoniaDetector,
+    brainTumorDetection,
+    liverTumorSeg
     }
