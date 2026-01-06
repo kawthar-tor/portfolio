@@ -292,29 +292,13 @@ export const projectFilters = [
     name: "Python",
   },
   {
-    icon: react,
-    name: "React",
-  },
-  {
-    icon: php,
-    name: "Php",
-  },
-  {
     icon: javascript,
     name: "JavaScript",
   },
   {
-    icon: spring,
-    name: "JEE",
-  },
-  {
     icon: java,
     name: "Java",
-  },
-  {
-    icon: android,
-    name: "Android",
-  },
+  }
 ];
 
 export const projects = [
