@@ -336,7 +336,7 @@ export const projects = [
       },
     ],
     image: mri2Mesh,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/kawthar-tor/MRI-To-3D-Mesh",
   },
   {
     title: "Bone Fracture Detection from X-ray Images",
@@ -372,7 +372,7 @@ export const projects = [
       },
     ],
     image: boneFratureDetector,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/kawthar-tor/Bone-Fracture-Detection",
   },
   {
     title: "Apache Log Analyzer",
@@ -450,7 +450,7 @@ export const projects = [
       },
     ],
     image: pneumoniaDetector,
-    sourceCodeLink: "hhttps://github.com/",
+    sourceCodeLink: "https://github.com/kawthar-tor/PneumoniaDetection",
   },
   {
     title: "Brain Tumour Detection and Classification",
@@ -490,7 +490,7 @@ export const projects = [
       },
     ],
     image: brainTumorDetection,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/kawthar-tor/BrainTumorDetection",
   },
   {
     title: "Portfolio",
@@ -518,7 +518,7 @@ export const projects = [
       },
     ],
     image: portfolioProject,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/kawthar-tor/portfolio",
   },
   {
     title: "Liver Tumor Segmentation and Volume Estimation",
@@ -554,7 +554,7 @@ export const projects = [
       },
     ],
     image: liverTumorSeg,
-    sourceCodeLink: "https://github.com",
+    sourceCodeLink: "https://github.com/kawthar-tor/LiverTumor3DSegmentation",
   },
 ];
 
