@@ -2,7 +2,8 @@
 # Branche source : ai-portfolio
 
 name: Deploy static content to GitHub Pages
-# Deploiement a partir de la branche ai-portfolio
+# Deploy from ai-portfolio
+# Deploy From Github Actions
 on:
   push:
     branches:
