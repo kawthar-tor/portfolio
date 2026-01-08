@@ -119,7 +119,7 @@ export const introductionItems = [
   },
   {
     id: "item2",
-    title: "PHD Candidate in AI for HealthCare",
+    title: "PhD Student in AI for HealthCare",
   },
   {
     id: "item3",
@@ -127,7 +127,7 @@ export const introductionItems = [
   },
   {
     id: "item4",
-    title: "Strategic Thinker | Chess Enthusiast",
+    title: "Strategic Thinker | Chess Puzzles Enthusiast",
   },
 ];
 
@@ -138,7 +138,7 @@ export const introductionParagraphs = [
   },
   {
     icon: school,
-    title: "Computer Science Engineer",
+    title: "Research-Oriented Computer Science Engineer",
   },
   {
     icon: mobility,
@@ -146,7 +146,7 @@ export const introductionParagraphs = [
   },
   {
     icon: professionalStatus,
-    title: "PhD Candidate in Artificial Intelligence",
+    title: "PhD Student in Artificial Intelligence",
   },
   {
     icon: phone,
@@ -183,7 +183,7 @@ export const overviewElements = [
     userName: "KaoutharKabiri",
     fileName: "aboutKaouthar",
     content: `
-I am <i>Kaouthar Kabiri</i>, a 24-year-old PhD Candidate in Artificial Intelligence for Healthcare and Clinical Decision Support.<br/><br/>
+I am <i>Kaouthar Kabiri</i>, a 24-year-old PhD Student in Artificial Intelligence for Healthcare and Clinical Decision Support.<br/><br/>
 
 Throughout my academic journey, I have built a strong foundation in computer science, complemented by hands-on experience in both web technologies and data science.<br/>
 I have worked with modern frameworks such as React, Node.js, and Express.js to design and develop efficient, scalable, and user-centered applications.<br/><br/>
@@ -561,17 +561,17 @@ export const projects = [
 // Skills
 
 export const professionalTitles = [
-  "PhD Candidate in AI for Healthcare",
+  "PhD Student in AI for Healthcare",
   "Software Engineer",
-  "Applied Data Science",
-  "Researcher",
+  "Research-Oriented Computer Science Engineer",
+  "Applied AI & Data Science Researcher",
 ];
 
 export const professionalSkillsOverview = {
   userName: "KaoutharKabiri",
   fileName: "professionnalSkills",
   content:
-    "I am a PhD candidate in Artificial Intelligence for Healthcare, driven by curiosity and a strong interest in understanding how computational methods can be translated into impactful, real-world solutions. My background in computer science and software engineering enables me to design robust systems, with a particular focus on AI-driven decision support and responsible innovation in healthcare.",
+    "I am a PhD student in Artificial Intelligence for Healthcare, driven by curiosity and a strong interest in understanding how computational methods can be translated into impactful, real-world solutions. My background in computer science and software engineering enables me to design robust systems, with a particular focus on AI-driven decision support and responsible innovation in healthcare.",
 };
 
 export const technologies = [

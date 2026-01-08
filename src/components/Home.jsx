@@ -5,10 +5,10 @@ import Typewriter from 'typewriter-effect';
 function Home() {
   return (
     <div className='flex flex-wrap md:flex-nowrap justify-center'>
-      <div className='p-6 max-w-sm'>
+      <div className='w-64 h-64 overflow-hidden rounded-full shadow-skillCard'>
         {
           profile.map((picture) => (
-            <img className='rounded-full w-auto h-auto shadow-skillCard' key={picture.id} src={picture.link} alt={picture.id} />
+            <img className='w-full h-full object-cover' key={picture.id} src={picture.link} alt={picture.id} />
           ))
         }
       </div>

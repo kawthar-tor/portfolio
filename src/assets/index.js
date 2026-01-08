@@ -67,7 +67,7 @@ import webpickLogo from './webPickLogo.png';
 import workbench from './workbench.svg';
 import xampp from './xampp.svg';
 import yellowCircle from './yellowCircle.svg';
-import CVpdf from './Kaouthar-Kabiri-CV.pdf';
+import CVpdf from './ai-research-portfolio.pdf';
 import mri2Mesh from './Mri2Mesh.png';
 import boneFratureDetector from './boneFratureDetector.png';
 import pneumoniaDetector from './pneumoniaDetector.png';
