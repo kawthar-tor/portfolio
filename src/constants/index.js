@@ -70,6 +70,9 @@ import {
   pneumoniaDetector,
   brainTumorDetection,
   liverTumorSeg,
+  pyTorch,
+  jupyter,
+  kaggle,
 } from "../assets";
 
 export const fullName = "Kaouthar Kabiri";
@@ -578,7 +581,7 @@ export const technologies = [
   {
     name: "Python",
     icon: python,
-    frameworks: ["Tkinter"],
+    frameworks: ["Tkinter", "Pytorch", "Scikit-learn", "TensorFlow", "Keras", "NLTK", "OpenCV"],
   },
   {
     name: "JavaScript",
@@ -588,22 +591,17 @@ export const technologies = [
   {
     name: "Java",
     icon: java,
-    frameworks: ["Spring", "Hibernate", "JSF"],
+    frameworks: ["Spring", "Hibernate", "JSF", "Spring Batch"],
   },
   {
     name: "C/C++",
     icon: cpp,
-    frameworks: [],
-  },
-  {
-    name: "Php",
-    icon: php,
-    frameworks: ["Symphony"],
+    frameworks: ["OpenCV"],
   },
   {
     name: "R",
     icon: R,
-    frameworks: [],
+    frameworks: ["caret", "randomForest", "Glmnet"],
   },
   {
     name: "Css",
@@ -613,11 +611,6 @@ export const technologies = [
   {
     name: "Pl/Sql",
     icon: sql,
-    frameworks: [],
-  },
-  {
-    name: "Kotlin",
-    icon: kotlin,
     frameworks: [],
   },
 ];
@@ -651,10 +644,6 @@ export const tools = [
     icon: blender,
   },
   {
-    name: "Eclipse",
-    icon: eclipse,
-  },
-  {
     name: "Git",
     icon: git,
   },
@@ -671,16 +660,8 @@ export const tools = [
     icon: oracle,
   },
   {
-    name: "Workbench",
-    icon: workbench,
-  },
-  {
     name: "Postman",
     icon: postman,
-  },
-  {
-    name: "Xampp",
-    icon: xampp,
   },
   {
     name: "Jira",
@@ -690,6 +671,18 @@ export const tools = [
     name: "Google Analytics",
     icon: analytics,
   },
+  {
+    name: "Kaggle",
+    icon: kaggle,
+  },
+    {
+    name: "Jupyter Notebook",
+    icon: jupyter,
+  },
+      {
+    name: "PyTorch",
+    icon: pyTorch,
+  }
 ];
 
 export const softSkills = [

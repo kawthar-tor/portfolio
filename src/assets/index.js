@@ -73,6 +73,9 @@ import boneFratureDetector from './boneFratureDetector.png';
 import pneumoniaDetector from './pneumoniaDetector.png';
 import brainTumorDetection from './brainTumorDetection.png';
 import liverTumorSeg from './liverTumorSeg.png';
+import kaggle from './kaggle.svg';
+import pyTorch from './pytorch.svg';
+import jupyter from './jupyter.svg';
 export {
     all,
     android,
@@ -148,5 +151,8 @@ export {
     boneFratureDetector,
     pneumoniaDetector,
     brainTumorDetection,
-    liverTumorSeg
+    liverTumorSeg,
+    pyTorch,
+    jupyter,
+    kaggle,
     }
